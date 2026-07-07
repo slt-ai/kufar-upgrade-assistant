@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Синхронизация отчётов на Caddy LXC (172.21.21.238 -> /var/www/kufar-reports).
+# Синхронизация отчётов на Caddy LXC (<caddy-ip> -> /var/www/<reports-dir>).
 #
 # На сервере лежат ТОЛЬКО *.html — конвертированные из reports/*.md.
 # .md/.json/.csv и прочее на сервер не попадают (и подтираются, если были).
@@ -8,8 +8,8 @@
 
 set -euo pipefail
 
-REMOTE="caddy"
-DST_DIR="/var/www/kufar-reports"
+: "${REMOTE:=caddy}"          # ssh alias; override via REMOTE=... env var
+: "${DST_DIR:=/var/www/kufar-reports}"  # server path; override via DST_DIR=... env var
 SRC_DIR="reports"
 HTML_DIR="${HTML_DIR:-reports}"   # куда складывать сгенерированный .html локально
 

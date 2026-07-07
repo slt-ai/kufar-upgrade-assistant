@@ -27,7 +27,7 @@
       Видеоадаптер                                      Intel(R) UHD Graphics 630  (1 ГБ)
       Видеоадаптер                                      NVIDIA GeForce RTX 5060 Ti  (16311 МБ)
       3D-акселератор                                    Intel UHD Graphics 630
-      Монитор                                           LG IPS235  [23" LCD]  (208RALL6Q072)  {2012}
+      Монитор                                           LG IPS235  [23" LCD]  [MONITOR_SERIAL]  {2012}
       Монитор                                           Xiaomi Mi Monitor  [34" LCD]  {2021}
 
     Мультимедиа:
