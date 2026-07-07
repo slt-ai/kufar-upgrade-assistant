@@ -1,0 +1,13 @@
+- [Intel DDR4 board availability in Minsk](intel-ddr4-minsk-availability.md) — most listings are H610 with 2 DIMM slots
+- [Defect detection false positives](defect-filter-false-positives.md) — text search for 'дефект' matches 'без дефектов'; trust fetcher's _defect flag
+- [AMD CPU model extraction](amd-cpu-extraction.md) — regex must restrict Ryzen tier to 3/5/7/9 to avoid junk matches
+- [Price uses precomputed field](price-uses-precomputed-field.md) — read item._price_byn from candidates; float(item.price) fails on Cyrillic-encoded "150 р."
+- [build_quality_top3 script bugs](build-quality-top3-script-bugs.md) — script's mb_ok/parse_mb use title keywords; use params.computersComponent* as ground truth (brand/chipset/socket/DIMM)
+- [MSI Gen3 PCIe 3.0 trap](msi-gen3-pcie3-trap.md) — MSI B550 "Gen3" suffix = PCIe 3.0 x16 primary slot, fails project PCIe ≥4.0 rule
+- [Price field scale is dual](price-field-scale-dual.md) — _out.json price_byn in kopecks (×100), _items.json price in BYN; normalize before summing
+- [LGA1700+AM4 top combos 2026-07-05](lga1700-am4-top-combos-2026-07-05.md) — рабочие пары MB+CPU на 05.07: Z790@180+i5-13400F=630, B550 Aorus Master+3950X=1040
+- [Params ram_type unreliable for Z790](params-ramtype-unreliable-z790.md) — _out.json ram_type=4(DDR4) but body says DDR5; always verify Z790 via body
+- [Ryzen 9 3950X partial SMT defect](ryzen-3950x-smt-defect.md) — lot 1073399967: 2 faulty SMT threads (30,31), disableable in BIOS; was prev AMD rank-3, now excluded
+- [_items_grouped.json richer than _items.json](items-grouped-richer.md) — 118 MB / 934 CPU vs 23/167; check it first for cached bodies
+- [Kufar chipset param code map](kufar-chipset-code-map.md) — 10=B450, 11=B550, 9=B350, 6=A320, 20=X470; 31=B660, 32=B760, 53=H610, 75=Z790
+- [WebFetch kufar.by rate-limit pattern](webfetch-kufar-ratelimit.md) — bursts >6 parallel fetches → 429 then "unable to verify domain" block; throttle to 2-3 per batch

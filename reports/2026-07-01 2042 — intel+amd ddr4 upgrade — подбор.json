@@ -1,0 +1,276 @@
+{
+  "report_date": "2026-07-01T20:42:00+00:00",
+  "scenario": "intel+amd ddr4 upgrade",
+  "source": "kufar.by Минск",
+  "pc_config": {
+    "cpu": "Intel Core i7-9750H",
+    "motherboard": "MSI B250M Pro-VDH",
+    "ram": "48 GB DDR4 (4 sticks)",
+    "gpu": "NVIDIA GeForce RTX 5060 Ti"
+  },
+  "filters": {
+    "ram_type": "DDR4 only",
+    "pcie_gpu_min": "4.0 x16",
+    "pcie_gpu_target": "5.0 x16",
+    "intel": "LGA1700, chipsets Z690/Z790/B660/B760/H610/H670",
+    "amd": "AM4, chipsets B550/X570",
+    "region": "Минск",
+    "mb_brand_whitelist": ["ASUS", "MSI", "Gigabyte", "ASRock", "Biostar", "ECS"],
+    "dimm_required_for_top3": 4
+  },
+  "intel_top3": [
+    {
+      "rank": 1,
+      "motherboard": {
+        "ad_id": "1074498967",
+        "title": "Gigabyte B760 Gaming X AX DDR4",
+        "price_byn": 440,
+        "url": "https://www.kufar.by/item/1074498967",
+        "seller": "Максим",
+        "location": "Минск, Заводской",
+        "condition": "Б/у",
+        "chipset": "B760",
+        "socket": "LGA1700",
+        "dimm_slots": 4,
+        "pcie_x16": "4.0",
+        "m2_slots": 2,
+        "lan": "2.5G",
+        "oc_series": true
+      },
+      "cpu": {
+        "ad_id": "1071188333",
+        "title": "Intel Core i7-13700F",
+        "price_byn": 770,
+        "url": "https://www.kufar.by/item/1071188333",
+        "seller": "Вадим",
+        "location": "Минск, Октябрьский",
+        "condition": "Новое",
+        "model": "Intel Core i7-13700F",
+        "perf_score": 450,
+        "perf_baseline": "Intel Core i7-9750H = 100",
+        "cores_threads": "16c/24t"
+      },
+      "kit_price_byn": 1210,
+      "compatibility": "verified",
+      "notes": ["13th gen на B760 нативно", "4 DIMM", "PCIe 4.0 x16", "2.5G LAN", "Gaming X OC-series"]
+    },
+    {
+      "rank": 2,
+      "motherboard": {
+        "ad_id": "1074498967",
+        "title": "Gigabyte B760 Gaming X AX DDR4",
+        "price_byn": 440,
+        "url": "https://www.kufar.by/item/1074498967",
+        "seller": "Максим",
+        "condition": "Б/у"
+      },
+      "cpu": {
+        "ad_id": "1073208894",
+        "title": "Intel Core i9-12900K",
+        "price_byn": 755,
+        "url": "https://www.kufar.by/item/1073208894",
+        "seller": "ООО \"ПТК БелИнструмент\"",
+        "condition": "Б/у",
+        "model": "Intel Core i9-12900K",
+        "perf_score": 410,
+        "cores_threads": "16c/24t"
+      },
+      "kit_price_byn": 1195,
+      "compatibility": "verified",
+      "notes": ["12th gen на B760 нативно", "VRM warning: 125W CPU on B760 may throttle under sustained LLM load"]
+    },
+    {
+      "rank": 3,
+      "motherboard": {
+        "ad_id": "1074498967",
+        "title": "Gigabyte B760 Gaming X AX DDR4",
+        "price_byn": 440,
+        "url": "https://www.kufar.by/item/1074498967",
+        "seller": "Максим",
+        "condition": "Б/у"
+      },
+      "cpu": {
+        "ad_id": "1075021903",
+        "title": "Intel Core i5-13400",
+        "price_byn": 700,
+        "url": "https://www.kufar.by/item/1075021903",
+        "seller": "родион",
+        "condition": "Б/у",
+        "model": "Intel Core i5-13400",
+        "perf_score": 280,
+        "cores_threads": "10c/16t"
+      },
+      "kit_price_byn": 1140,
+      "compatibility": "verified",
+      "notes": ["13th gen на B760 нативно", "budget 4-DIMM option"]
+    }
+  ],
+  "amd_top3": [
+    {
+      "rank": 1,
+      "motherboard": {
+        "ad_id": "1069258658",
+        "title": "Gigabyte B550 AORUS Master",
+        "price_byn": 600,
+        "url": "https://www.kufar.by/item/1069258658",
+        "seller": "Алексей",
+        "location": "Минск, Первомайский",
+        "condition": "Б/у",
+        "chipset": "B550",
+        "socket": "AM4",
+        "dimm_slots": 4,
+        "pcie_x16": "4.0",
+        "m2_slots": 3,
+        "wifi": true,
+        "vrm": "14+2",
+        "oc_series": true
+      },
+      "cpu": {
+        "ad_id": "1073227393",
+        "title": "AMD Ryzen 9 5950X",
+        "price_byn": 880,
+        "url": "https://www.kufar.by/item/1073227393",
+        "seller": "Пользователь",
+        "location": "Минск, Заводской",
+        "condition": "Б/у",
+        "model": "AMD Ryzen 9 5950X",
+        "perf_score": 470,
+        "cores_threads": "16c/32t"
+      },
+      "kit_price_byn": 1480,
+      "compatibility": "verified",
+      "notes": ["Ryzen 5000 на B550 нативно", "4 DIMM", "3x M.2", "Wi-Fi 6 + BT 5.0", "14+2 VRM"]
+    },
+    {
+      "rank": 2,
+      "motherboard": {
+        "ad_id": "1074968077",
+        "title": "ASRock B550M Pro4",
+        "price_byn": 310,
+        "url": "https://www.kufar.by/item/1074968077",
+        "seller": "Алеся",
+        "location": "Минск, Центральный",
+        "condition": "Новое",
+        "chipset": "B550",
+        "socket": "AM4",
+        "dimm_slots": 4,
+        "pcie_x16": "4.0",
+        "m2_slots": 2,
+        "warranty_months": 24
+      },
+      "cpu": {
+        "ad_id": "1073227393",
+        "title": "AMD Ryzen 9 5950X",
+        "price_byn": 880,
+        "url": "https://www.kufar.by/item/1073227393",
+        "seller": "Пользователь",
+        "condition": "Б/у",
+        "model": "AMD Ryzen 9 5950X",
+        "perf_score": 470,
+        "cores_threads": "16c/32t"
+      },
+      "kit_price_byn": 1190,
+      "compatibility": "verified",
+      "notes": ["Новая плата с гарантией 24 мес.", "4 DIMM", "PCIe 4.0 x16"]
+    },
+    {
+      "rank": 3,
+      "motherboard": {
+        "ad_id": "1073717899",
+        "title": "ASRock B550 Steel Legend",
+        "price_byn": 400,
+        "url": "https://www.kufar.by/item/1073717899",
+        "seller": "Антон",
+        "location": "Минск, Советский",
+        "condition": "Б/у",
+        "chipset": "B550",
+        "socket": "AM4",
+        "dimm_slots": 4,
+        "pcie_x16": "4.0",
+        "m2_slots": 2
+      },
+      "cpu": {
+        "ad_id": "1073399967",
+        "title": "AMD Ryzen 9 3950X",
+        "price_byn": 490,
+        "url": "https://www.kufar.by/item/1073399967",
+        "seller": "Дмитрий",
+        "location": "Минск, Центральный",
+        "condition": "Б/у",
+        "model": "AMD Ryzen 9 3950X",
+        "perf_score": 410,
+        "cores_threads": "16c/32t"
+      },
+      "kit_price_byn": 890,
+      "compatibility": "verified",
+      "notes": ["Ryzen 3000 на B550 нативно", "budget 16c/32t", "4 DIMM"]
+    }
+  ],
+  "comparison": {
+    "intel_1": {
+      "kit_price_byn": 1210,
+      "cpu": "i7-13700F 16c/24t",
+      "cpu_perf": 450,
+      "pcie_gpu": "4.0 x16",
+      "dimm_slots": 4,
+      "m2_slots": 2,
+      "lan": "2.5G"
+    },
+    "amd_1": {
+      "kit_price_byn": 1480,
+      "cpu": "Ryzen 9 5950X 16c/32t",
+      "cpu_perf": 470,
+      "pcie_gpu": "4.0 x16",
+      "dimm_slots": 4,
+      "m2_slots": 3,
+      "lan": "Wi-Fi 6 + 1G"
+    },
+    "amd_2": {
+      "kit_price_byn": 1190,
+      "cpu": "Ryzen 9 5950X 16c/32t",
+      "cpu_perf": 470,
+      "pcie_gpu": "4.0 x16",
+      "dimm_slots": 4,
+      "m2_slots": 2,
+      "lan": "1G"
+    }
+  },
+  "changes_since_2026_06_28": {
+    "removed": [
+      {
+        "ad_id": "1074829435",
+        "title": "Gigabyte Z690 Gaming X DDR4 (Intel #1, PCIe 5.0)",
+        "previous_price_byn": 450,
+        "status": "removed",
+        "checked_at": "2026-07-01"
+      }
+    ],
+    "price_changed": [
+      {"ad_id": "1074498967", "title": "Gigabyte B760 Gaming X AX DDR4", "old_price_byn": 450, "new_price_byn": 440, "delta_byn": -10},
+      {"ad_id": "1073227393", "title": "AMD Ryzen 9 5950X", "old_price_byn": 950, "new_price_byn": 880, "delta_byn": -70},
+      {"ad_id": "1019993393", "title": "Gigabyte B550 Gaming X V2 rev 1.0", "old_price_byn": 350, "new_price_byn": 333.66, "delta_byn": -16.34},
+      {"ad_id": "1063525487", "title": "MSI B550-A Pro", "old_price_byn": 345, "new_price_byn": 355.21, "delta_byn": 10.21}
+    ],
+    "new_in_top3": [
+      {"ad_id": "1075021903", "title": "Intel Core i5-13400", "position": "Intel #3"},
+      {"ad_id": "1074968077", "title": "ASRock B550M Pro4 (new, warranty)", "position": "AMD #2"}
+    ]
+  },
+  "excluded": {
+    "defect": ["1075318739", "1067964836", "1071173866", "1073248395"],
+    "noname_mb": ["1070922366"],
+    "wrong_memory": ["1049279891", "1029024019"],
+    "pcie_too_old": ["1074467672"],
+    "other": ["1066106609"]
+  },
+  "files": [
+    "reports/2026-07-01 2042 — intel+amd ddr4 upgrade — подбор.md",
+    "reports/2026-07-01 2042 — intel+amd ddr4 upgrade — подбор.json",
+    "scripts/_items.json",
+    "scripts/_out.json",
+    "scripts/_kit_analyzer_out.json",
+    "scripts/.cache/seen_ids.json",
+    "scripts/.cache/_manifest_2026-07-01.json",
+    "scripts/.cache/_stale_verification_2026-07-01.json"
+  ]
+}

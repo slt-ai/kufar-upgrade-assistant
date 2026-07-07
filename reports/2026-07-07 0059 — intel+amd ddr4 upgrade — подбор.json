@@ -1,0 +1,336 @@
+{
+  "generated_at": "2026-07-07T00:59:00+03:00",
+  "analyzer": "kit-analyzer + main-agent verification",
+  "source_fetch": "scripts/_out.json (1049) + scripts/_out_delta.json (98 new since 2026-07-05) + targeted body recheck of 9 priority ids, kufar-listings-fetcher 2026-07-07 00:35-00:59",
+  "baseline": {
+    "cpu": "Intel Core i7-9750H",
+    "perf_score": 100
+  },
+  "filters": {
+    "ram_type": "DDR4 only",
+    "pcie_gpu_min": "4.0 x16",
+    "pcie_gpu_target": "5.0 x16",
+    "intel_socket": "LGA1700",
+    "intel_chipsets": ["Z690", "Z790", "B660", "B760", "H610", "H670"],
+    "amd_socket": "AM4",
+    "amd_chipsets": ["B550", "X570"],
+    "mb_brand_whitelist": ["ASUS", "MSI", "Gigabyte", "ASRock", "Biostar", "ECS"],
+    "region": "Минск",
+    "dimm_priority": 4,
+    "price_currency": "BYN"
+  },
+  "top3_intel": [
+    {
+      "rank": 1,
+      "tier": "entry_upgrade",
+      "mb": {
+        "id": "1073712669",
+        "title": "Материнская плата ASRock H610M-HDV",
+        "price": 150,
+        "brand": "ASRock",
+        "chipset": "Intel H610",
+        "socket": "LGA1700",
+        "dimm": 2,
+        "pcie": "4.0 x16",
+        "form_factor": "mATX",
+        "condition": "Б/у, 3 года, чистилась, по работе нареканий нет",
+        "seller": "Максим",
+        "district": "Фрунзенский",
+        "url": "https://www.kufar.by/item/1073712669",
+        "status": "active",
+        "price_changed": false
+      },
+      "cpu": {
+        "id": "1075343032",
+        "title": "Процессор Intel Core i3-14100F",
+        "price": 310,
+        "model": "i3-14100F",
+        "cores_threads": "4c/8t",
+        "perf": 120,
+        "condition": "Б/у",
+        "district": "Минск",
+        "url": "https://www.kufar.by/item/1075343032",
+        "new_from_delta": true
+      },
+      "total_price": 460,
+      "cpu_perf": 120,
+      "compatibility": "verified",
+      "notes": [
+        "Плата 2 DIMM — у пользователя 4 планки DDR4 (48GB), влезут только 2 (16+16=32GB). Warning per §8.",
+        "Самый дешёвый валидный LGA1700 апгрейд: +20% MT к i7-9750H.",
+        "H610 поддерживает 12/13/14 gen out-of-box; i3-14100F 65W — VRM OK.",
+        "Замена снятому i3-12100F (1075097174, removed 404)."
+      ]
+    },
+    {
+      "rank": 2,
+      "tier": "balanced",
+      "mb": {
+        "id": "1074498967",
+        "title": "Gigabyte B760 Gaming X AX DDR4",
+        "price": 420,
+        "brand": "Gigabyte",
+        "chipset": "Intel B760",
+        "socket": "LGA1700",
+        "dimm": 4,
+        "pcie": "4.0 x16",
+        "m2": "2",
+        "lan": "2.5GbE",
+        "wifi": true,
+        "form_factor": "ATX",
+        "oc_series": true,
+        "condition": "Б/у, отличное состояние, без проблем и дефектов, полный комплект",
+        "seller": "Максим",
+        "district": "Заводской",
+        "url": "https://www.kufar.by/item/1074498967",
+        "status": "active",
+        "price_changed": false
+      },
+      "cpu": {
+        "id": "1075813244",
+        "title": "Процессор Intel Core i5 13400F",
+        "price": 450,
+        "model": "i5-13400F",
+        "cores_threads": "10c/16t (6P+4E)",
+        "perf": 200,
+        "condition": "Б/у, год в эксплуатации",
+        "seller": "Юрий",
+        "district": "Фрунзенский",
+        "url": "https://www.kufar.by/item/1075813244",
+        "status": "active",
+        "price_changed": false
+      },
+      "total_price": 870,
+      "cpu_perf": 200,
+      "compatibility": "verified",
+      "notes": [
+        "Лучшее perf/price с сохранением 48GB (4 DIMM). 2× MT i7-9750H за 870 BYN.",
+        "Gigabyte Gaming X AX — premium OC-серия, 2.5GbE, WiFi 6, 2× M.2.",
+        "Бюджетная альтернатива 2-DIMM: ASRock H610M-HDV + i5-13400F = 600 BYN (та же perf, RAM→32GB).",
+        "B760 = PCIe 4.0 (не 5.0)."
+      ]
+    },
+    {
+      "rank": 3,
+      "tier": "future_ready",
+      "mb": {
+        "id": "1074498967",
+        "title": "Gigabyte B760 Gaming X AX DDR4",
+        "price": 420,
+        "dimm": 4,
+        "pcie": "4.0 x16",
+        "url": "https://www.kufar.by/item/1074498967",
+        "status": "active"
+      },
+      "cpu": {
+        "id": "1071188333",
+        "title": "Процессор i7-13700F",
+        "price": 770,
+        "model": "i7-13700F",
+        "cores_threads": "16c/24t (8P+8E)",
+        "perf": 450,
+        "condition": "Б/у",
+        "district": "Минск",
+        "url": "https://www.kufar.by/item/1071188333",
+        "status": "active"
+      },
+      "total_price": 1190,
+      "cpu_perf": 450,
+      "compatibility": "verified",
+      "notes": [
+        "16c/24t, 4.5× MT baseline, AVX2. i7-13700F 65W non-K — VRM-мисматча на B760 Gaming X AX нет.",
+        "Premium alt: i9-12900K (1073208894, 755 BYN, perf 400, гарантия юр.лица, kit=1175).",
+        "Альтернатива CPU: i7-13700KF (1075797390, 749 BYN, perf 480, kit=1169).",
+        "Замена снятому i7-12700F (1074166310, removed 404). PCIe 5.0 недостижим валидной whitelist DDR4-платой."
+      ]
+    }
+  ],
+  "top3_amd": [
+    {
+      "rank": 1,
+      "tier": "entry_upgrade",
+      "mb": {
+        "id": "1073248395",
+        "title": "Материнская плата ASRock B550 ATX",
+        "price": 200,
+        "brand": "ASRock",
+        "chipset": "AMD B550",
+        "socket": "AM4",
+        "dimm": 4,
+        "pcie": "4.0 x16",
+        "form_factor": "ATX",
+        "condition": "Б/у, рабочая, с отлетевшей звуковой картой (аудиокодек отсутствует)",
+        "seller": "Дмитрий",
+        "district": "Октябрьский",
+        "url": "https://www.kufar.by/item/1073248395",
+        "status": "active",
+        "price_changed": false,
+        "audio_note": "аудиокодек отсутствует — не дефект по §2.5"
+      },
+      "cpu": {
+        "id": "1076061652",
+        "title": "AMD Ryzen 5 4500",
+        "price": 200,
+        "model": "Ryzen 5 4500",
+        "cores_threads": "6c/12t (Zen 2)",
+        "perf": 100,
+        "condition": "Б/у, отличное, полностью рабочий",
+        "seller": "Сергей",
+        "district": "Минск",
+        "url": "https://www.kufar.by/item/1076061652",
+        "new_from_delta": true
+      },
+      "total_price": 400,
+      "cpu_perf": 100,
+      "compatibility": "verified",
+      "notes": [
+        "Самый дешёвый AMD-комплект, 4 DIMM = 48GB сохраняются, B550 PCIe 4.0.",
+        "Perf 100 = baseline (порог ≥98 пройден, реального MT-прироста нет).",
+        "⚠ аудиокодек отсутствует — альтернатива с рабочим аудио: Gigabyte B550 DS3H (1075923437, 250 BYN, 4 DIMM, прямая проверка без дефектов) + Ryzen 5 4500 = 450 BYN.",
+        "Ryzen 5 4500 — новый лот из дельты (замена снятому Ryzen 5 2600 1075806076)."
+      ]
+    },
+    {
+      "rank": 2,
+      "tier": "balanced",
+      "mb": {
+        "id": "1073248395",
+        "title": "ASRock B550 ATX",
+        "price": 200,
+        "dimm": 4,
+        "pcie": "4.0 x16",
+        "url": "https://www.kufar.by/item/1073248395",
+        "status": "active"
+      },
+      "cpu": {
+        "id": "1076061964",
+        "title": "AMD Ryzen 7 3700X",
+        "price": 300,
+        "model": "Ryzen 7 3700X",
+        "cores_threads": "8c/16t (Zen 2)",
+        "perf": 200,
+        "condition": "Б/у, исправное рабочее состояние, продажа в связи с переходом на AM5",
+        "seller": "Сергей",
+        "district": "Фрунзенский",
+        "url": "https://www.kufar.by/item/1076061964",
+        "new_from_delta": true
+      },
+      "total_price": 500,
+      "cpu_perf": 200,
+      "compatibility": "verified",
+      "notes": [
+        "Лучший perf/price в пуле: 2× MT baseline за 500 BYN (perf/price=0.400) — превосходит prev Ryzen 5 5600 (550 BYN / 0.327).",
+        "8c/16t Zen 2, AVX2. Новый лот из дельты (свежий, 0 дней).",
+        "B550 поддерживает Ryzen 3000 out-of-box без caveat.",
+        "Альтернатива CPU с лучшим single-thread (Zen 3): Ryzen 5 5600 (1072541437, 350 BYN, perf 180, 27 дней) = 550 BYN; свежий аналог 5600 — 1076065931 (350 BYN, 0 дней, прямая проверка без дефектов).",
+        "Premium-плата alt: Gigabyte B550 Aorus Elite (1075534706, 290 BYN, 4 DIMM, гарантия 7 дней) + 3700X = 590 BYN."
+      ]
+    },
+    {
+      "rank": 3,
+      "tier": "future_ready",
+      "mb": {
+        "id": "1075920044",
+        "title": "Gigabyte Aorus B550 Master",
+        "price": 550,
+        "brand": "Gigabyte",
+        "chipset": "AMD B550",
+        "socket": "AM4",
+        "dimm": 4,
+        "pcie": "4.0 x16",
+        "m2": "3",
+        "lan": "2.5GbE",
+        "wifi": true,
+        "form_factor": "ATX",
+        "vrm": "16 фаз",
+        "oc_series": true,
+        "condition": "Б/у, полный комплект, WiFi не распакован, 16-фазное питание",
+        "seller": "Григорий",
+        "district": "Фрунзенский",
+        "url": "https://www.kufar.by/item/1075920044",
+        "status": "active",
+        "price_changed": false
+      },
+      "cpu": {
+        "id": "1073227393",
+        "title": "AMD Ryzen 9 5950X",
+        "price": 880,
+        "model": "Ryzen 9 5950X",
+        "cores_threads": "16c/32t (Zen 3)",
+        "perf": 400,
+        "condition": "Б/у",
+        "url": "https://www.kufar.by/item/1073227393",
+        "status": "active"
+      },
+      "total_price": 1430,
+      "cpu_perf": 400,
+      "compatibility": "verified",
+      "notes": [
+        "Future-ready AMD под локальные LLM: 16c/32t Zen 3, perf 400 = 4× baseline, AVX2.",
+        "Флагман B550: 16-фазное питание, 2.5GbE, WiFi 6, 3× M.2.",
+        "Замена prev: было B550 Aorus Master + 3950X (1040 BYN), но 3950X (1073399967) исключён по дефекту (2 SMT-потока 30,31 неисправны) → 5950X Zen 3 быстрее и без дефекта, +390 BYN.",
+        "Бюджетный future_ready: ASRock B550 (200) + 5950X (880) = 1080 BYN.",
+        "Альтернатива CPU: Ryzen 9 5900X (1074911306, 850 BYN, perf 330, kit=1400) или 1070553063 (800 BYN, kit=1350)."
+      ]
+    }
+  ],
+  "ready_kits": [
+    {"id": "1075518870", "cpu": "i3-12100F", "ram": "16GB (2×8)", "price": 700, "seller": "vlodeslaff / Московский", "note": "entry-кит, CPU слабее baseline"},
+    {"id": "1075900872", "cpu": "i5-13490F", "ram": "32GB DDR4-3600", "price": 1500, "seller": "Антон / Первомайский", "note": "сбалансированный, дороже ранга-2 на 630 BYN, но 32GB быстрой RAM"},
+    {"id": "1075674366", "cpu": "i5-13400", "ram": "32GB (4×8)", "price": 1600, "seller": "Даник / Центральный", "note": "4 DIMM заняты — 48GB пользователя не переставить без замены RAM"},
+    {"id": "1075770652", "cpu": "Ryzen 5 (?)", "ram": "в комплекте", "price": 1600, "seller": "Павел / Ленинский", "note": "⚠ модели MB/CPU не раскрыты — уточнять у продавца"},
+    {"id": "1073125074", "cpu": "Ryzen 7 5800X3D", "ram": "32GB DDR4", "price": 5299.99, "seller": "Мікіта / Московский", "note": "полный ПК-кит, включает RTX 4070 Ti + кулер"}
+  ],
+  "prev_top_recheck": {
+    "checked_at": "2026-07-07T00:40:00+03:00",
+    "method": "kit-analyzer WebFetch + fetcher targeted body fetch (urllib, 2.5c delay, 9/9 200 OK)",
+    "removed": [
+      {"id": "1075097174", "role": "Intel entry CPU i3-12100F", "http_status": 404, "replaced_by": "1075343032 (i3-14100F, 310 BYN)"},
+      {"id": "1074166310", "role": "Intel rank-3 CPU i7-12700F", "http_status": 404, "replaced_by": "1071188333 (i7-13700F, 770 BYN)"},
+      {"id": "1075806076", "role": "AMD entry CPU Ryzen 5 2600", "http_status": 404, "replaced_by": "1076061652 (Ryzen 5 4500, 200 BYN)"}
+    ],
+    "defect_newly_detected": [
+      {"id": "1073399967", "role": "AMD future_ready CPU Ryzen 9 3950X", "defect_reason": "2 SMT-потока 30,31 неисправны (disableable в BIOS)", "replaced_by": "1073227393 (Ryzen 9 5950X, 880 BYN)"}
+    ],
+    "active_unchanged": [
+      {"id": "1073712669", "role": "Intel entry MB ASRock H610M-HDV", "price": 150},
+      {"id": "1074498967", "role": "Intel balanced/future_ready MB Gigabyte B760 Gaming X AX DDR4", "price": 420},
+      {"id": "1075813244", "role": "Intel balanced CPU i5-13400F", "price": 450},
+      {"id": "1073248395", "role": "AMD entry/balanced MB ASRock B550 ATX", "price": 200, "note": "аудиокодек отсутствует, не дефект"},
+      {"id": "1072541437", "role": "AMD balanced CPU Ryzen 5 5600", "price": 350},
+      {"id": "1075920044", "role": "AMD future_ready MB Gigabyte B550 Aorus Master", "price": 550}
+    ],
+    "price_changed_count": 0,
+    "removed_count": 3,
+    "defect_newly_detected_count": 1
+  },
+  "verified_excluded": [
+    {"id": "1075618374", "model": "ASUS ROG STRIX Z790-A Gaming WIFI II", "price": 650, "reason": "DDR5 (params+body), PCIe 5.0 есть но платформа DDR5"},
+    {"id": "1075301548", "model": "ASRock Z790 PG Lightning", "price": 310, "reason": "DDR5 (body: 4 слота DDR5, 2×PCIe x16 5.0)"},
+    {"id": "1056712246", "model": "ASUS Prime B760M-PLUS", "price": 235, "reason": "DDR5 (params+body), новое, 4 DIMM"},
+    {"id": "1076061705", "model": "ASUS PRIME B760M-K", "price": 200, "reason": "DDR5, 2 DIMM"},
+    {"id": "1076027419", "model": "Biostar B550MH 3.0", "price": 219, "reason": "PCIe Gen3 ('3.0' в названии модели), 2 DIMM — pcie_too_old"},
+    {"id": "1076020877", "model": "Intel Pentium G7400", "price": 250, "reason": "2c/4t low-end, не LLM-релевантен"},
+    {"id": "1075987820", "model": "Ryzen 5 3600X", "price": 300, "reason": "Zen 2 perf~110, доминируется Ryzen 7 3700X за те же 300 BYN"}
+  ],
+  "verified_alt_valid": [
+    {"id": "1075923437", "model": "Gigabyte B550 DS3H rev 1.7", "price": 250, "dimm": 4, "pcie": "4.0", "note": "DDR4 валидна, бюджет-серия (без OC-бонуса), рабочее аудио — альт для AMD entry при необходимости звука"},
+    {"id": "1076065931", "model": "Ryzen 5 5600", "price": 350, "note": "свежий (0 дней) аналог 1072541437, та же модель/цена, прямая проверка без дефектов"}
+  ],
+  "excluded_summary": {
+    "defect": 6,
+    "noname": 4,
+    "no_price": 3,
+    "wrong_memory_ddr5": 4,
+    "pcie_too_old": 9,
+    "removed_from_prev_top": 3,
+    "other": 1
+  },
+  "anomalies": [
+    "defect-флаг не взводится при заполненном defect_reason / частичном дефекте в body (1073399967 3950X) — требует фикса в fetcher'е",
+    "params.ram_type для Z790 надёжен — гипотеза о ненадёжности снята",
+    "Biostar B550MH '3.0' = PCIe Gen3 версия модели, не чипсет — исключать по pcie_too_old",
+    "WebFetch main-агента на kufar.by заблокирован окружением — проверка по правилу 9 делегирована fetcher'у",
+    "kufar_parse.py PAGE_DELAY 0.5c→2.5c (anti-429)"
+  ]
+}

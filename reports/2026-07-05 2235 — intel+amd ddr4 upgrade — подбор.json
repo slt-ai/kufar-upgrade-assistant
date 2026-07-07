@@ -1,0 +1,596 @@
+{
+  "generated_at": "2026-07-05T22:50:00+00:00",
+  "analyzer": "kit-analyzer",
+  "source_fetch": "scripts/_items.json + scripts/_out.json (kufar-listings-fetcher, 2026-07-05 22:12-22:24)",
+  "baseline": {
+    "cpu": "Intel Core i7-9750H",
+    "perf_score": 100
+  },
+  "filters": {
+    "ram_type": "DDR4 only",
+    "pcie_gpu_min": "4.0 x16",
+    "pcie_gpu_target": "5.0 x16",
+    "intel_socket": "LGA1700",
+    "intel_chipsets": [
+      "Z690",
+      "Z790",
+      "B660",
+      "B760",
+      "H610",
+      "H670"
+    ],
+    "amd_socket": "AM4",
+    "amd_chipsets": [
+      "B550",
+      "X570"
+    ],
+    "mb_brand_whitelist": [
+      "ASUS",
+      "MSI",
+      "Gigabyte",
+      "ASRock",
+      "Biostar",
+      "ECS"
+    ],
+    "region": "Минск",
+    "dimm_priority": 4,
+    "price_currency": "BYN"
+  },
+  "top3_intel": [
+    {
+      "rank": 1,
+      "tier": "entry_upgrade",
+      "mb": {
+        "id": "1073712669",
+        "title": "Материнская Плата ASRock H610M-HDV",
+        "price": 150,
+        "brand": "ASRock",
+        "chipset": "Intel H610",
+        "socket": "LGA1700",
+        "dimm": 2,
+        "pcie": "4.0 x16",
+        "m2": "1",
+        "lan": "1GbE",
+        "wifi": false,
+        "form_factor": "mATX",
+        "condition": "Б/у",
+        "seller": "Максим",
+        "district": "Фрунзенский",
+        "url": "https://www.kufar.by/item/1073712669"
+      },
+      "cpu": {
+        "id": "1075097174",
+        "title": "Процессор Intel 12100f",
+        "price": 200,
+        "model": "i3-12100F",
+        "cores_threads": "4c/8t",
+        "perf": 110,
+        "condition": "Б/у",
+        "seller": "Игорь",
+        "district": "Фрунзенский",
+        "url": "https://www.kufar.by/item/1075097174"
+      },
+      "total_price": 350,
+      "cpu_perf": 110,
+      "compatibility": "verified",
+      "notes": [
+        "Плата 2 DIMM — у пользователя 4 планки DDR4 (48GB), влезут только 2 (16+16=32GB).",
+        "Самый дешёвый валидный LGA1700 апгрейд: +10% MT к i7-9750H."
+      ]
+    },
+    {
+      "rank": 2,
+      "tier": "balanced",
+      "mb": {
+        "id": "1074498967",
+        "title": "Gigabyte B760 Gaming X AX DDR4",
+        "price": 420,
+        "brand": "Gigabyte",
+        "chipset": "Intel B760",
+        "socket": "LGA1700",
+        "dimm": 4,
+        "pcie": "4.0 x16",
+        "m2": "2",
+        "lan": "2.5GbE",
+        "wifi": true,
+        "form_factor": "ATX",
+        "condition": "Б/у (тестировалась, в отличном состоянии по описанию)",
+        "seller": "Максим",
+        "district": "Заводской",
+        "url": "https://www.kufar.by/item/1074498967"
+      },
+      "cpu": {
+        "id": "1075813244",
+        "title": "Процессор Intel Core i5 13400F",
+        "price": 450,
+        "model": "i5-13400F",
+        "cores_threads": "10c/16t (6P+4E)",
+        "perf": 200,
+        "condition": "Б/у",
+        "seller": "Юрий",
+        "district": "Фрунзенский",
+        "url": "https://www.kufar.by/item/1075813244"
+      },
+      "total_price": 870,
+      "cpu_perf": 200,
+      "compatibility": "verified",
+      "score": 8.9,
+      "notes": [
+        "Лучшее доступное perf/price: 2× MT i7-9750H за 870 BYN.",
+        "4 DIMM — все 48GB пользователя сохраняются. AVX2 — отлично для LLM.",
+        "Альтернатива CPU дешевле: i5-12400F (1075251861, 350 BYN, perf 156, kit=770)."
+      ]
+    },
+    {
+      "rank": 3,
+      "tier": "balanced_plus",
+      "mb": {
+        "id": "1074498967",
+        "title": "Gigabyte B760 Gaming X AX DDR4",
+        "price": 420,
+        "brand": "Gigabyte",
+        "chipset": "Intel B760",
+        "socket": "LGA1700",
+        "dimm": 4,
+        "pcie": "4.0 x16",
+        "m2": "2",
+        "lan": "2.5GbE",
+        "wifi": true,
+        "form_factor": "ATX",
+        "condition": "Б/у",
+        "seller": "Максим",
+        "district": "Заводской",
+        "url": "https://www.kufar.by/item/1074498967"
+      },
+      "cpu": {
+        "id": "1074166310",
+        "title": "Процессор Intel core i7",
+        "price": 550,
+        "model": "i7-12700F",
+        "cores_threads": "12c/20t (8P+4E)",
+        "perf": 235,
+        "condition": "Б/у",
+        "seller": "Олег",
+        "district": "Советский",
+        "url": "https://www.kufar.by/item/1074166310",
+        "model_source": "body (params: Intel Core i7 без поколения; body: «Intel Core I7 12700F»)"
+      },
+      "total_price": 970,
+      "cpu_perf": 235,
+      "compatibility": "verified",
+      "notes": [
+        "Шаг вверх от ранга-2: +35% MT за +100 BYN, 12c/20t — хорошо под локальные LLM.",
+        "Модель i7-12700F подтверждена из описания (body), не из title/params.",
+        "Premium future_ready alt: i9-12900K (1073208894, 755 BYN, perf 400, 16c/24t, гарантия юр.лица, kit=1175) — лучший под LLM.",
+        "Альтернатива CPU: i7-13700F (1071188333, 770 BYN, perf 450, kit=1190). Плата повторяется с рангом 2."
+      ]
+    }
+  ],
+  "top3_amd": [
+    {
+      "rank": 1,
+      "tier": "entry_upgrade",
+      "mb": {
+        "id": "1073248395",
+        "title": "Материнская плата (ASRock B550 ATX)",
+        "price": 200,
+        "brand": "ASRock",
+        "chipset": "AMD B550",
+        "socket": "AM4",
+        "dimm": 4,
+        "pcie": "4.0 x16",
+        "m2": "2",
+        "lan": "1GbE",
+        "wifi": false,
+        "form_factor": "ATX",
+        "condition": "Б/у",
+        "seller": "Дмитрий",
+        "district": "Октябрьский",
+        "url": "https://www.kufar.by/item/1073248395"
+      },
+      "cpu": {
+        "id": "1075806076",
+        "title": "процессор amd ryzen 5 2600",
+        "price": 100,
+        "model": "Ryzen 5 2600",
+        "cores_threads": "6c/12t",
+        "perf": 100,
+        "condition": "Б/у",
+        "seller": "Алекс",
+        "district": "Ленинский",
+        "url": "https://www.kufar.by/item/1075806076"
+      },
+      "total_price": 300,
+      "cpu_perf": 100,
+      "compatibility": "verified",
+      "notes": [
+        "Самый дешёвый AMD-комплект: на уровне i7-9750H по MT (формально проходит порог ≥98, реального прироста нет).",
+        "B550 = PCIe 4.0 x16 (минимум для RTX 5060 Ti соблюдён, 5.0 недостижим на AM4).",
+        "4 DIMM — все 4 планки пользователя сохраняются.",
+        "СОВЕТ: для ощутимого апгрейда брать rank-2 (Ryzen 5 5600, perf 180) за +250 BYN."
+      ]
+    },
+    {
+      "rank": 2,
+      "tier": "balanced",
+      "mb": {
+        "id": "1073248395",
+        "title": "Материнская плата (ASRock B550 ATX)",
+        "price": 200,
+        "brand": "ASRock",
+        "chipset": "AMD B550",
+        "socket": "AM4",
+        "dimm": 4,
+        "pcie": "4.0 x16",
+        "m2": "2",
+        "lan": "1GbE",
+        "wifi": false,
+        "form_factor": "ATX",
+        "condition": "Б/у",
+        "seller": "Дмитрий",
+        "district": "Октябрьский",
+        "url": "https://www.kufar.by/item/1073248395"
+      },
+      "cpu": {
+        "id": "1072541437",
+        "title": "ryzen 5 5600",
+        "price": 350,
+        "model": "Ryzen 5 5600",
+        "cores_threads": "6c/12t",
+        "perf": 180,
+        "condition": "Б/у",
+        "seller": "Фудзи",
+        "district": "Фрунзенский",
+        "url": "https://www.kufar.by/item/1072541437"
+      },
+      "total_price": 550,
+      "cpu_perf": 180,
+      "compatibility": "verified",
+      "score": 8.7,
+      "notes": [
+        "Сладкая точка AMD: +80% MT к i7-9750H за 550 BYN, 4 DIMM, PCIe 4.0.",
+        "Ryzen 5 5600: AVX2, отличный single-thread — шустрее в LLM-инференсе, чем 2600/3600.",
+        "B550 поддерживает Ryzen 5000 out-of-box на актуальном BIOS (уточнить у продавца версию BIOS).",
+        "Альтернатива CPU: Ryzen 7 5700X (1053067717, 500 BYN, perf 230, new) — +50 BYN даёт +28% MT и 8c/16t."
+      ]
+    },
+    {
+      "rank": 3,
+      "tier": "future_ready",
+      "mb": {
+        "id": "1075920044",
+        "title": "gigabyte aorus b550 master, Am4, Мощная мать",
+        "price": 550,
+        "brand": "Gigabyte",
+        "chipset": "AMD B550",
+        "socket": "AM4",
+        "dimm": 4,
+        "pcie": "4.0 x16",
+        "m2": "3",
+        "lan": "2.5GbE",
+        "wifi": true,
+        "form_factor": "ATX",
+        "vrm": "14+2",
+        "oc_series": true,
+        "condition": "Б/у",
+        "seller": "Григорий",
+        "district": "Фрунзенский",
+        "url": "https://www.kufar.by/item/1075920044"
+      },
+      "cpu": {
+        "id": "1073399967",
+        "title": "AMD Ryzen 9 3950x",
+        "price": 490,
+        "model": "Ryzen 9 3950X",
+        "cores_threads": "16c/32t",
+        "perf": 350,
+        "condition": "Б/у",
+        "seller": "Дмитрий",
+        "district": "Центральный",
+        "url": "https://www.kufar.by/item/1073399967"
+      },
+      "total_price": 1040,
+      "cpu_perf": 350,
+      "compatibility": "verified",
+      "score": 9.0,
+      "notes": [
+        "Future-ready AMD: 16c/32t — топ под локальные LLM (плотный многопоток, AVX2). 3.5× MT i7-9750H.",
+        "Gigabyte B550 Aorus Master — флагман B550: 14+2 VRM, 2.5GbE, WiFi 6, 3× M.2.",
+        "Альтернатива CPU на ту же плату: Ryzen 9 5950X (1073227393, 880 BYN, perf 400, kit=1430).",
+        "Альтернатива CPU: Ryzen 9 5900X (1074911306, 850 BYN, perf 330, kit=1400).",
+        "Бюджетный future_ready: ASRock B550 (1073248395) + Ryzen 9 3950X = 690 BYN (perf 350, 4 DIMM)."
+      ]
+    }
+  ],
+  "ready_kits": [
+    {
+      "id": "1075518870",
+      "title": "Комплект процессор i3 12100f, b660m asus ddr4 2x8",
+      "price": 700,
+      "cpu": "i3-12100F",
+      "mb": "ASUS B660M",
+      "ram": "16GB (2×8)",
+      "dimms": 4,
+      "pcie": "4.0 x16",
+      "socket": "LGA1700",
+      "chipset": "Intel B660",
+      "condition": "Б/у",
+      "seller": "vlodeslaff f",
+      "district": "Московский",
+      "url": "https://www.kufar.by/item/1075518870",
+      "notes": "Готовый entry-кит. CPU слабее текущего i7-9750H по MT, но платформа свежая. RAM только 16GB — пользовательские 48GB можно переставить."
+    },
+    {
+      "id": "1075900872",
+      "title": "Комплект i5 13490f + B660M + 32gb 3600",
+      "price": 1500,
+      "cpu": "i5-13490F",
+      "mb": "MSI B660M",
+      "ram": "32GB DDR4-3600",
+      "dimms": 4,
+      "pcie": "4.0 x16",
+      "socket": "LGA1700",
+      "chipset": "Intel B660",
+      "condition": "Б/у",
+      "seller": "Антон",
+      "district": "Первомайский",
+      "url": "https://www.kufar.by/item/1075900872",
+      "notes": "Готовый сбалансированный кит: 10c/16t, 32GB DDR4-3600. Дороже раздельной сборки rank-2 (630 BYN) на 870 BYN, но включает 32GB быстрой памяти."
+    },
+    {
+      "id": "1075674366",
+      "title": "i5-13400 + B660M + 4x8ddr4",
+      "price": 1600,
+      "cpu": "i5-13400",
+      "mb": "ASRock B660M Pro RS",
+      "ram": "32GB (4×8)",
+      "dimms": 4,
+      "pcie": "4.0 x16",
+      "socket": "LGA1700",
+      "chipset": "Intel B660",
+      "condition": "Б/у",
+      "seller": "Даник",
+      "district": "Центральный",
+      "url": "https://www.kufar.by/item/1075674366",
+      "notes": "Бренд ASRock указан в body (params brand=None, валиден по whitelist). 4×8 = 4 DIMM заняты — пользовательские 48GB нельзя переставить без замены."
+    },
+    {
+      "id": "1075770652",
+      "title": "Комплект материнская плата, оперативка и процессор",
+      "price": 1600,
+      "cpu": "Ryzen 5 (модель не указана)",
+      "mb": "AMD AM4 (уточнить)",
+      "ram": "в комплекте",
+      "dimms": null,
+      "pcie": null,
+      "socket": "AM4",
+      "chipset": "AMD (уточнить)",
+      "condition": "Б/у",
+      "seller": "Павел",
+      "district": "Ленинский",
+      "url": "https://www.kufar.by/item/1075770652",
+      "compatibility": "uncertain",
+      "notes": "Модель MB и CPU не раскрыта в title/params — требует уточнения у продавца перед ранжированием."
+    },
+    {
+      "id": "1073125074",
+      "title": "КОМПЛЕКТ: мать + проц + кулер + память + карта",
+      "price": 5299.99,
+      "cpu": "Ryzen 7 5800X3D",
+      "mb": "ASUS ROG STRIX B550-F GAMING",
+      "ram": "32GB HyperX Fury DDR4",
+      "gpu_included": "Palit RTX 4070 Ti",
+      "cooler_included": "DEEPCOOL AK500 G2",
+      "dimms": null,
+      "pcie": "4.0 x16",
+      "socket": "AM4",
+      "chipset": "AMD B550",
+      "condition": "Б/у",
+      "seller": "Мікіта",
+      "district": "Московский",
+      "url": "https://www.kufar.by/item/1073125074",
+      "notes": "Полный ПК-кит (включая RTX 4070 Ti). АКТИВЕН по прямой проверке 2026-07-05. Цена 5299.99 BYN. Не сравним напрямую с парами MB+CPU — это отдельная категория (полная сборка)."
+    }
+  ],
+  "changes_vs_prev": {
+    "removed": [
+      {
+        "id": "1073038427",
+        "title": "AMD MB из prev amd rank-1",
+        "last_price": 285,
+        "checked_at": "2026-07-05T22:35:00Z",
+        "check_method": "webfetch_http_404",
+        "url": "https://www.kufar.by/item/1073038427"
+      },
+      {
+        "id": "1074867167",
+        "title": "AMD MB из prev amd rank-3",
+        "last_price": 310,
+        "checked_at": "2026-07-05T22:35:00Z",
+        "check_method": "webfetch_http_404",
+        "url": "https://www.kufar.by/item/1074867167"
+      }
+    ],
+    "stale_active_reverified": [
+      {
+        "id": "1073125074",
+        "title": "ready-kit / полный ПК-кит",
+        "price": 5299.99,
+        "checked_at": "2026-07-05T22:35:00Z",
+        "check_method": "webfetch_active",
+        "url": "https://www.kufar.by/item/1073125074",
+        "note": "Активен, цена та же. Включает Ryzen 7 5800X3D + ASUS ROG STRIX B550-F + RTX 4070 Ti + 32GB DDR4."
+      }
+    ],
+    "price_changed": [],
+    "new_in_top": [
+      {
+        "id": "1075813244",
+        "title": "i5-13400F, 450 BYN — new in Intel balanced"
+      },
+      {
+        "id": "1073208894",
+        "title": "i9-12900K, 755 BYN — new in Intel future_ready"
+      },
+      {
+        "id": "1073248395",
+        "title": "ASRock B550 ATX, 200 BYN — new in AMD top"
+      },
+      {
+        "id": "1075920044",
+        "title": "Gigabyte B550 Aorus Master, 550 BYN — new in AMD future_ready"
+      },
+      {
+        "id": "1075806076",
+        "title": "Ryzen 5 2600, 100 BYN — new in AMD entry"
+      },
+      {
+        "id": "1072541437",
+        "title": "Ryzen 5 5600, 350 BYN — new in AMD balanced"
+      },
+      {
+        "id": "1073399967",
+        "title": "Ryzen 9 3950X, 490 BYN — new in AMD future_ready"
+      },
+      {
+        "id": "1074166310",
+        "title": "i7-12700F, 550 BYN (модель из body) — Intel ранг-3, kit=970 BYN"
+      }
+    ],
+    "survived_from_prev": [
+      {
+        "id": "1074498967",
+        "title": "Gigabyte B760 Gaming X AX DDR4, 420 BYN — валидна, уступила Z790 по perf/price"
+      },
+      {
+        "id": "1075251861",
+        "title": "i5-12400F, 350 BYN — цена та же"
+      },
+      {
+        "id": "1074166310",
+        "title": "i7 @ 550 BYN — цена та же, модель в title не уточнена"
+      },
+      {
+        "id": "1071188333",
+        "title": "i7-13700F, 770 BYN — цена та же"
+      },
+      {
+        "id": "1070675357",
+        "title": "Gigabyte b550m, 270 BYN — валидна, ASRock B550 за 200 выгоднее"
+      },
+      {
+        "id": "1072583055",
+        "title": "Ryzen 7 3700X PRO, 320 BYN — цена та же"
+      },
+      {
+        "id": "1073227393",
+        "title": "Ryzen 9 5950X, 880 BYN — цена та же"
+      }
+    ],
+    "defect_excluded": [
+      {
+        "id": "1075318739",
+        "title": "ASRock Z790M PG Lightning D4",
+        "reason": "ручная проверка карточки: две нерабочие платы (цикличная перезагрузка + нет старта), 90 BYN каждая. Баг кеша defect=false при заполненном defect_reason — устранён."
+      },
+      {
+        "id": "1067964836",
+        "title": "MSI Pro H610M-B DDR4",
+        "reason": "fetcher defect=True — было бы в Intel entry, заменено на ASRock H610M-HDV 1073712669"
+      },
+      {
+        "id": "1075573596",
+        "title": "Biostar A550MH",
+        "reason": "fetcher defect=True — было бы в AMD entry, заменено на ASRock B550 1073248395"
+      },
+      {
+        "id": "1075924306",
+        "title": "AMD Ryzen 5950X (дефект в title)",
+        "reason": "fetcher defect=True — CPU с дефектом, исключён"
+      },
+      {
+        "id": "1073134551",
+        "title": "Ryzen 3 4100",
+        "reason": "fetcher defect=True — исключён"
+      }
+    ]
+  },
+  "excluded_summary": {
+    "defect": 5,
+    "wrong_memory": 0,
+    "noname": 5,
+    "noname_ids": [
+      "1075899567 (Colorful B760)",
+      "1075511200 (Maxsun B660M)",
+      "1073262251 (JGINYUE B760I)",
+      "1075674366 (brand None — kit, ASRock по body)",
+      "1070922366 (Soyo B550M)"
+    ],
+    "no_price": 3,
+    "no_price_ids": [
+      "206406041",
+      "1074580282",
+      "145809654"
+    ],
+    "not_minsk": 0,
+    "pcie_too_old": 0,
+    "other": 0,
+    "note": "fetcher уже отфильтровал DDR5/не-Минск на этапе сбора; в отфильтрованном пуле все MB уже DDR4+PCIe4.0+"
+  },
+  "open_questions": [
+    "Допустимо ли 2-DIMM в entry-tier, учитывая что у пользователя 4 планки DDR4? Текущие rank-1 Intel/AMD помечены warning, но не исключены.",
+    "Готовые киты (ready_kits) не пересекаются с парами из разных лотов по правилам. Включать ли кит 1075900872 (1500 BYN, i5-13490F+32GB) в основной топ, если пользователь готов переплатить за готовую сборку с быстрой RAM?",
+    "Уточнить состав кита 1075770652 (MB+CPU+RAM @ 1600 BYN).",
+    "Подтвердить BIOS на ASRock B550 (1073248395) — поддерживает ли Ryzen 5000 out-of-box (для rank-2 с Ryzen 5 5600).",
+    "PCIe 5.0 недоступен валидной whitelist-платой в текущем пуле — единственная Z790 дефектна, BattleAX noname. Если 5.0 критичен — следующий прогон / расширение региона."
+  ],
+  "anomalies": [
+    "Цены в scripts/_out.json хранятся в копейках (price_byn=42000 = 420 BYN), в scripts/_items.json — уже в BYN (price='420 р.'). При объединении пулов нужна нормализация (×100).",
+    "1066106609 'i9 13950hx (мутант)' @ 900 — мобильный BGA-чип на адаптере, НЕ стандартный LGA1700. Исключён (compatibility=uncertain).",
+    "Прямая проверка 1073125074 показала, что это полный ПК-кит с RTX 4070 Ti (5299.99 BYN) — не типичный ready-kit MB+CPU+RAM. Отнесён в ready_kits с пометкой.",
+    "Лот 1074166310: params/title дают только «Intel Core i7» без поколения, модель i7-12700F указана в body. Урок: читать body, а не только title/params."
+  ],
+  "direct_checks": {
+    "checked_at": "2026-07-05T22:35:00Z",
+    "method": "WebFetch GET карточки kufar.by",
+    "results": [
+      {
+        "id": "1073038427",
+        "http_status": 404,
+        "verdict": "removed",
+        "applied": {
+          "removed": true,
+          "removed_at": "2026-07-05T22:35:00Z",
+          "stale": false,
+          "last_check": "2026-07-05T22:35:00Z"
+        }
+      },
+      {
+        "id": "1074867167",
+        "http_status": 404,
+        "verdict": "removed",
+        "applied": {
+          "removed": true,
+          "removed_at": "2026-07-05T22:35:00Z",
+          "stale": false,
+          "last_check": "2026-07-05T22:35:00Z"
+        }
+      },
+      {
+        "id": "1073125074",
+        "http_status": 200,
+        "verdict": "active",
+        "price_byn": 5299.99,
+        "seller": "Мікіта",
+        "district": "Московский",
+        "applied": {
+          "removed": false,
+          "stale": false,
+          "last_check": "2026-07-05T22:35:00Z",
+          "last_seen": "2026-07-05T22:35:00Z"
+        }
+      }
+    ]
+  },
+  "correction": "Лот 1075318739 (ASRock Z790M PG Lightning D4) исключён по дефекту после ручной проверки карточки: две нерабочие платы (цикличная перезагрузка + нет старта), 90 BYN каждая. Баг кеша defect=false при заполненном defect_reason — устранён. Валидной whitelist-платы Intel с PCIe 5.0 в пуле нет."
+}

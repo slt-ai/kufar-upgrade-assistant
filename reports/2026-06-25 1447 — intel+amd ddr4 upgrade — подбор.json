@@ -1,0 +1,548 @@
+{
+  "checked_at": "2026-06-25T14:47:32+03:00",
+  "scenario": "intel+amd ddr4 upgrade, quality-scored",
+  "user_pc": {
+    "cpu": "Intel Core i7-9750H (Kaby Lake-H)",
+    "perf_baseline": 100,
+    "mobo": "MSI B250M Pro-VDH",
+    "ram_ddr4_gb": 48,
+    "ram_ddr4_sticks": 4,
+    "gpu": "NVIDIA GeForce RTX 5060 Ti",
+    "use_case": "local LLMs (need cores, AVX2/AMX, multi-threading)"
+  },
+  "weights": {
+    "mb_dimm_slots": 40,
+    "mb_vrm": 20,
+    "mb_pcie_gen": 15,
+    "mb_m2": 10,
+    "mb_lan": 5,
+    "mb_oc": 5,
+    "mb_brand_premium": 5,
+    "cpu_perf_divisor": 10
+  },
+  "intel_top3": [
+    {
+      "rank": 1,
+      "label": "intel",
+      "quality_score": 98.1,
+      "mb_quality_score": 93.0,
+      "cpu_perf": 175,
+      "vrm_penalty": 0,
+      "kit_price_byn": 1000.0,
+      "motherboard": {
+        "ad_id": 1074338703,
+        "title": "Asrock B660M PG Riptide",
+        "price_byn": 500.0,
+        "url": "https://www.kufar.by/item/1074338703",
+        "seller": "Илья",
+        "chipset": "B660",
+        "socket": "LGA1700",
+        "dimm_slots": 4,
+        "pcie_gen": 4,
+        "m2_count": 2,
+        "lan_g": 2.5,
+        "vrm_phases": 15,
+        "oc": true,
+        "brand": "ASRock"
+      },
+      "cpu": {
+        "ad_id": 1073950867,
+        "title": "Intel Core i5-12400 (LGA 1700)",
+        "price_byn": 500.0,
+        "url": "https://www.kufar.by/item/1073950867",
+        "seller": "Антон",
+        "perf_score": 175
+      }
+    },
+    {
+      "rank": 2,
+      "label": "intel",
+      "quality_score": 88.04,
+      "mb_quality_score": 69.0,
+      "cpu_perf": 380,
+      "vrm_penalty": 0,
+      "kit_price_byn": 1148.31,
+      "motherboard": {
+        "ad_id": 1049279891,
+        "title": "Материнская плата Gigabyte B760 Gaming X Gen5",
+        "price_byn": 378.31,
+        "url": "https://www.kufar.by/item/1049279891",
+        "seller": "ООО Медиастор",
+        "chipset": "B760",
+        "socket": "LGA1700",
+        "dimm_slots": 4,
+        "pcie_gen": 4,
+        "m2_count": 1,
+        "lan_g": 1,
+        "vrm_phases": 1,
+        "oc": true,
+        "brand": "Gigabyte"
+      },
+      "cpu": {
+        "ad_id": 1071188333,
+        "title": "Продаю процессор i7-13700F",
+        "price_byn": 770.0,
+        "url": "https://www.kufar.by/item/1071188333",
+        "seller": "Вадим",
+        "perf_score": 380
+      }
+    },
+    {
+      "rank": 3,
+      "label": "intel",
+      "quality_score": 88.04,
+      "mb_quality_score": 69.0,
+      "cpu_perf": 380,
+      "vrm_penalty": 0,
+      "kit_price_byn": 1263.21,
+      "motherboard": {
+        "ad_id": 1029024019,
+        "title": "Материнская плата Gigabyte B760M Gaming X AX (rev. 1.x)",
+        "price_byn": 493.21,
+        "url": "https://www.kufar.by/item/1029024019",
+        "seller": "ООО Медиастор",
+        "chipset": "B760",
+        "socket": "LGA1700",
+        "dimm_slots": 4,
+        "pcie_gen": 4,
+        "m2_count": 1,
+        "lan_g": 1,
+        "vrm_phases": 0,
+        "oc": true,
+        "brand": "Gigabyte"
+      },
+      "cpu": {
+        "ad_id": 1071188333,
+        "title": "Продаю процессор i7-13700F",
+        "price_byn": 770.0,
+        "url": "https://www.kufar.by/item/1071188333",
+        "seller": "Вадим",
+        "perf_score": 380
+      }
+    }
+  ],
+  "intel_budget": {
+    "rank": "budget",
+    "label": "intel",
+    "quality_score": 24.1,
+    "mb_quality_score": 19.0,
+    "cpu_perf": 175,
+    "vrm_penalty": 0,
+    "kit_price_byn": 650.0,
+    "motherboard": {
+      "ad_id": 1073075382,
+      "title": "Материнская плата GIGABYTE H610M H V3 DDR4",
+      "price_byn": 150.0,
+      "url": "https://www.kufar.by/item/1073075382",
+      "seller": "Тихон ",
+      "chipset": "H610",
+      "socket": "LGA1700",
+      "dimm_slots": 2,
+      "pcie_gen": 4,
+      "m2_count": 0,
+      "lan_g": 1,
+      "vrm_phases": 5,
+      "oc": false,
+      "brand": "Gigabyte"
+    },
+    "cpu": {
+      "ad_id": 1073950867,
+      "title": "Intel Core i5-12400 (LGA 1700)",
+      "price_byn": 500.0,
+      "url": "https://www.kufar.by/item/1073950867",
+      "seller": "Антон",
+      "perf_score": 175
+    }
+  },
+  "amd_top3": [
+    {
+      "rank": 1,
+      "label": "amd",
+      "quality_score": 100.16,
+      "mb_quality_score": 75.0,
+      "cpu_perf": 470,
+      "vrm_penalty": 0,
+      "kit_price_byn": 1299.52,
+      "motherboard": {
+        "ad_id": 1019993393,
+        "title": "Материнская плата Gigabyte B550 Gaming X V2 (rev. 1.0)",
+        "price_byn": 349.52,
+        "url": "https://www.kufar.by/item/1019993393",
+        "seller": "ООО Медиастор",
+        "chipset": "B550",
+        "socket": "AM4",
+        "dimm_slots": 4,
+        "pcie_gen": 4,
+        "m2_count": 1,
+        "lan_g": 1,
+        "vrm_phases": 8,
+        "oc": true,
+        "brand": "Gigabyte"
+      },
+      "cpu": {
+        "ad_id": 1073227393,
+        "title": "Процессор AMD Ryzen 9 5950X",
+        "price_byn": 950.0,
+        "url": "https://www.kufar.by/item/1073227393",
+        "seller": "Пользователь",
+        "perf_score": 470
+      }
+    },
+    {
+      "rank": 2,
+      "label": "amd",
+      "quality_score": 98.08,
+      "mb_quality_score": 77.0,
+      "cpu_perf": 410,
+      "vrm_penalty": 0,
+      "kit_price_byn": 720.0,
+      "motherboard": {
+        "ad_id": 1069364985,
+        "title": "Asus TUF Gaming B450M Pro S материнская плата AM4",
+        "price_byn": 230.0,
+        "url": "https://www.kufar.by/item/1069364985",
+        "seller": "Van",
+        "chipset": "B550",
+        "socket": "AM4",
+        "dimm_slots": 4,
+        "pcie_gen": 4,
+        "m2_count": 1,
+        "lan_g": 1,
+        "vrm_phases": 8,
+        "oc": true,
+        "brand": "ASUS"
+      },
+      "cpu": {
+        "ad_id": 1073399967,
+        "title": "AMD Ryzen 9 3950x",
+        "price_byn": 490.0,
+        "url": "https://www.kufar.by/item/1073399967",
+        "seller": "Дмитрий",
+        "perf_score": 410
+      }
+    },
+    {
+      "rank": 3,
+      "label": "amd",
+      "quality_score": 97.16,
+      "mb_quality_score": 72.0,
+      "cpu_perf": 470,
+      "vrm_penalty": 0,
+      "kit_price_byn": 1295.04,
+      "motherboard": {
+        "ad_id": 1063525487,
+        "title": "Материнская плата MSI B550-A Pro",
+        "price_byn": 345.04,
+        "url": "https://www.kufar.by/item/1063525487",
+        "seller": "ООО Медиастор",
+        "chipset": "B550",
+        "socket": "AM4",
+        "dimm_slots": 4,
+        "pcie_gen": 4,
+        "m2_count": 1,
+        "lan_g": 1,
+        "vrm_phases": 8,
+        "oc": false,
+        "brand": "MSI"
+      },
+      "cpu": {
+        "ad_id": 1073227393,
+        "title": "Процессор AMD Ryzen 9 5950X",
+        "price_byn": 950.0,
+        "url": "https://www.kufar.by/item/1073227393",
+        "seller": "Пользователь",
+        "perf_score": 470
+      }
+    }
+  ],
+  "ready_kits": [
+    {
+      "ad_id": 1074495798,
+      "title": "Комплект АМ4",
+      "price_byn": 170.0,
+      "platform": "AM4",
+      "perf_score": 125,
+      "url": "https://www.kufar.by/item/1074495798",
+      "seller": "Виталий",
+      "components": {
+        "body": "--------------ЗАБРОНИРОВАН-------------\n\nПродаю комплект a320m-k + ryzen 5 2600. Состояние: процессор поцарапал кулер(Не влияет на работу),материнская плата в хорошем состоянии. Покупался комплект с магазина в 2022 году для ПК жены. Цену сбросил за царапины. Почта по предоплате. Дам время на проверк"
+      }
+    },
+    {
+      "ad_id": 1073870268,
+      "title": "Комплект Asrock Pro AB350+Ryzen 5 2400g",
+      "price_byn": 245.0,
+      "platform": "AM4",
+      "perf_score": null,
+      "url": "https://www.kufar.by/item/1073870268",
+      "seller": "Алексей",
+      "components": {
+        "body": "Продам Материнскую плату Asrock Pro AB350 am4 + процессор Ryzen 5 2400g, стояли в рабочем пк, работают без проблем."
+      }
+    },
+    {
+      "ad_id": 1046837951,
+      "title": "Процессор AMD Ryzen 5 4500 в комплекте с кулером",
+      "price_byn": 280.0,
+      "platform": "AM4",
+      "perf_score": 165,
+      "url": "https://www.kufar.by/item/1046837951",
+      "seller": "Anton",
+      "components": {
+        "body": "Процессор AMD Ryzen 5 4500\n4000 series processor, кулер в комплекте.\n\nОсновные характеристики:\n\nАрхитектурa: Zen 2 (Renoir)\n\nСокет: AM4\n\nЯдра/Потоки: 6/12\n\nБазовая частота: 3.6 ГГц\n\nМакс. частота (Boost): 4.1 ГГц\n\nКэш L3: 8+3 МБ\n\nТехпроцесс: 7 нм\n\nTDP (Тепловыделение): 65 Вт\n\nПоддержка памяти: DDR4 "
+      }
+    },
+    {
+      "ad_id": 1064953017,
+      "title": "КоМПЛЕКТ RYZEN 7 1700+ MB A320M-K+8Gb+ОХЛАД",
+      "price_byn": 350.0,
+      "platform": "AM4",
+      "perf_score": 145,
+      "url": "https://www.kufar.by/item/1064953017",
+      "seller": "Сергей",
+      "components": {
+        "body": "СТОИМОСТЬ КОМПЛЕКТОВ ПОД ВАШИ ПОТРЕБНОСТИ НИЖЕ:\n\nКоМПЛЕКТ Материнская плата Colorful C.A320M-K PRO V14 + Процессор RYZEN 7 1700 + Охлаждение AMD - 350 руб.\n\nКоМПЛЕКТ Материнская плата Colorful C.A320M-K PRO V14 + Процессор RYZEN 7 1700 + Охлаждение AMD + DDR4 8Gb  - 450 руб.\n\nКоМПЛЕКТ Материнская пл"
+      }
+    },
+    {
+      "ad_id": 1062347171,
+      "title": "Комплект Xeon 2680+плата X79+кулер+32(64)gb DDR",
+      "price_byn": 390.0,
+      "platform": "LGA1700",
+      "perf_score": null,
+      "url": "https://www.kufar.by/item/1062347171",
+      "seller": "ИП Рогачевский Г.В.",
+      "components": {
+        "body": "Подoйдёт для cборки производительного ПК — 10 ядер / 20 потоков-хороший вариант для недорогого игрового или рабочего компьютера.Отлично подxодит для paбочиx зaдач, рeндеpа, монтaжа, виртуальных машин, сeрвеpных задaч и игр.\n***\nПродается  ТОЛЬКО кoмплектом:\n1. Материнская плата X79G LGA2011-новая\n• "
+      }
+    },
+    {
+      "ad_id": 1074495373,
+      "title": "Комплект системного блока Ryzen 7",
+      "price_byn": 540.0,
+      "platform": "AM4",
+      "perf_score": 170,
+      "url": "https://www.kufar.by/item/1074495373",
+      "seller": "Фрунзенский район ",
+      "components": {
+        "body": "Для работы, если поставить игровую  видеокарту будет игровой PC. Длиной до 23см, толщиной до 5-5.5см.\n\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\n1. Процессор Ryzen 7 2700X\n2. Кулер \n3. Плата \n4. Память DDR4 4+4\n5. Видеокарта 1гб Quadro с DP/DVI\n6. Без диска\n7. Блок 500w\n8. Корпус маленький с боковым пластиковым окном, ест"
+      }
+    },
+    {
+      "ad_id": 1074061887,
+      "title": "Комплект Ryzen материнская плата ОЗУ проц кулер",
+      "price_byn": 720.0,
+      "platform": "AM4",
+      "perf_score": 200,
+      "url": "https://www.kufar.by/item/1074061887",
+      "seller": "Adel Nako",
+      "components": {
+        "body": "Комплект материнка процессор ОЗУ кулер \nМатеринка Biostar b450HM am4\nПроцессор Ryzen 7 3700 \nОперативная память Kingston 2666 ddr4 , 2 плашки по 8гб\nКулер octopus на 200 ват\n#ryzen #amd #ryzen5 #ryzen 7"
+      }
+    },
+    {
+      "ad_id": 1074109353,
+      "title": "Полный игровой комплект или пк",
+      "price_byn": 750.0,
+      "platform": "LGA1700",
+      "perf_score": null,
+      "url": "https://www.kufar.by/item/1074109353",
+      "seller": "Егор",
+      "components": {
+        "body": "Продам готовый бюджетный игровой комплект (могу собрать в корпусе)\n\nМат. плата ASUS ROG STRIX B250G GAMING\n\nПроцессор Intel Core i5-6600\n\nБашенный кулер intel\n\nОперативная память DDR 4, одна плашка на 2133 мгц, вторая на 2400 мгц\n\nВидеокарта 1060 в исполнение от MSI на 2 кулера, обслужена, заменена "
+      }
+    },
+    {
+      "ad_id": 1074047062,
+      "title": "Комплект AM4 asus tuf b450 ryzen 3600 32gb",
+      "price_byn": 1000.0,
+      "platform": "AM4",
+      "perf_score": 150,
+      "url": "https://www.kufar.by/item/1074047062",
+      "seller": "Николай",
+      "components": {
+        "body": "Asus tuf gaming b450m pro ll\nRyzen 5 3600\nG.Skill Ripjaws V 4x8GB 3200\n\nТак же есть корпус jonsbo c6 и блок питания be quiet! System Power 750W за доп плату"
+      }
+    },
+    {
+      "ad_id": 1073979712,
+      "title": "комплект Intel Core i5-13400 + B660M + 32GB DDR4",
+      "price_byn": 1600.0,
+      "platform": "LGA1700",
+      "perf_score": 200,
+      "url": "https://www.kufar.by/item/1073979712",
+      "seller": "vlad",
+      "components": {
+        "body": "Продам отличный производительный комплект в идеальном рабочем состоянии Intel Core i5-13400 + материнская плата ASRock B660M Pro RS + оперативная память Kingston FURY Beast 4x8GB DDR4 PC4-28800 KF436C17BBK4/32. Железо современное 10 ядер 16 потоков память отлично работает на высокой частоте 3600 МГц"
+      }
+    },
+    {
+      "ad_id": 1073125074,
+      "title": "КОМПЛЕКТ: мать + проц + кулер + память + карта",
+      "price_byn": 5299.99,
+      "platform": "AM4",
+      "perf_score": 290,
+      "url": "https://www.kufar.by/item/1073125074",
+      "seller": "Мікіта",
+      "components": {
+        "body": "Продаю топовые комплектующие в состоянии “чуть ли не из магазина”. Без майнинга, без разгона, без рукожопства (только если BIOS слетел при обновлении, все восстановил). Работают идеально, проверю при вас, если то понадобится.\n\nПРОЦ:\n\nRyzen 7 5800X3D — 1300 BYN (новье с коробки)\nЛучший игровой процес"
+      }
+    }
+  ],
+  "ready_kit_priority_1073979712": {
+    "ad_id": 1073979712,
+    "title": "Готовый комплект Intel Core i5-13400 + B660M + 32GB DDR4",
+    "price_byn": 1600.0,
+    "url": "https://www.kufar.by/item/1073979712",
+    "seller": "vlad",
+    "components": {
+      "cpu": "Intel Core i5-13400 (10c/16t)",
+      "motherboard": "ASRock B660M Pro RS (LGA1700, B660, DDR4, 4 DIMM)",
+      "ram": "Kingston FURY Beast 4x8GB DDR4-3600 (KF436C17BBK4/32)"
+    },
+    "perf_score": 200,
+    "dimm_slots": 4,
+    "pcie_gen": 4,
+    "notes": "Единственный готовый Intel-сет с 4 DIMM в текущей выборке. Подходит для перестановки пользовательских 48 ГБ DDR4 (16+8+16+8)."
+  },
+  "target_priority_lots": [
+    {
+      "ad_id": "1074338703",
+      "role": "Priority Intel platform (ASRock B660M PG Riptide, 4 DIMM + 15-фаз VRM)"
+    },
+    {
+      "ad_id": "1073075382",
+      "role": "Budget Intel (Gigabyte H610M H V3 DDR4, 2 DIMM, but cheap)"
+    },
+    {
+      "ad_id": "1073979712",
+      "role": "Ready-made Intel kit with 4 DIMM and 32GB RAM"
+    },
+    {
+      "ad_id": "1074498967",
+      "role": "NEW Intel board (Gigabyte B760 Gaming X AX DDR4, 450 BYN)"
+    }
+  ],
+  "excluded_summary": {
+    "defect": 53,
+    "wrong_memory": 5,
+    "noname_mb": 378,
+    "no_price": 79,
+    "other": 340
+  },
+  "changes_vs_2026-06-24_1622": [
+    {
+      "ad_id": "1071062100",
+      "delta_byn": -15.8,
+      "delta_pct": -3.7,
+      "old": 430.25,
+      "new": 414.45,
+      "title": "MSI Pro B760M-A DDR4 II"
+    },
+    {
+      "ad_id": "1072583055",
+      "delta_byn": -20,
+      "delta_pct": -5.9,
+      "old": 340,
+      "new": 320,
+      "title": "Ryzen 7 3700X PRO"
+    },
+    {
+      "ad_id": "1063525487",
+      "delta_byn": -0.96,
+      "delta_pct": -0.3,
+      "old": 346,
+      "new": 345.04,
+      "title": "MSI B550-A Pro"
+    },
+    {
+      "ad_id": "1020339850",
+      "delta_byn": -3.97,
+      "delta_pct": -1.2,
+      "old": 322,
+      "new": 318.03,
+      "title": "MSI B550M Pro-VDH WiFi"
+    },
+    {
+      "ad_id": "1074498967",
+      "type": "new_lot",
+      "title": "Gigabyte B760 Gaming X AX DDR4",
+      "price_byn": 450,
+      "ranked_in_top3": false,
+      "mb_score": 64,
+      "reason": "mojibake body, parser cannot extract 2.5G/M.2/VRM from title alone"
+    },
+    {
+      "ad_id": "1049279891",
+      "type": "new_lot",
+      "title": "Gigabyte B760 Gaming X Gen5",
+      "price_byn": 378.31,
+      "ranked_in_top3": "intel_#2"
+    },
+    {
+      "ad_id": "1029024019",
+      "type": "new_lot",
+      "title": "Gigabyte B760M Gaming X AX (rev.1.x)",
+      "price_byn": 493.21,
+      "ranked_in_top3": "intel_#3"
+    },
+    {
+      "ad_id": "1019993393",
+      "type": "new_lot_unblocked",
+      "title": "Gigabyte B550 Gaming X V2",
+      "price_byn": 349.52,
+      "ranked_in_top3": "amd_#1",
+      "reason": "previously filtered as defect (false positive 'без дефектов' phrase); now passes filter and ranks #1 AMD"
+    },
+    {
+      "ad_id": "1069364985",
+      "type": "demoted",
+      "title": "ASUS TUF B450M Pro S + 3950X",
+      "old_rank": "amd_#1",
+      "new_rank": "amd_#2"
+    }
+  ],
+  "rank_changes_summary": {
+    "intel_#1": {
+      "from": "ASRock B660M PG Riptide + i5-12400",
+      "to": "ASRock B660M PG Riptide + i5-12400",
+      "changed": false,
+      "quality": 98.1
+    },
+    "intel_#2": {
+      "from": "ASUS ROG Strix B760-F Gaming + i7-13700F",
+      "to": "Gigabyte B760 Gaming X Gen5 + i7-13700F",
+      "changed": true,
+      "old_quality": 85.04,
+      "new_quality": 88.04
+    },
+    "intel_#3": {
+      "from": "MSI Pro B760M-A DDR4 II + i7-13700F",
+      "to": "Gigabyte B760M Gaming X AX + i7-13700F",
+      "changed": true,
+      "old_quality": 85.04,
+      "new_quality": 88.04
+    },
+    "amd_#1": {
+      "from": "ASUS TUF B450M Pro S + Ryzen 9 3950X",
+      "to": "Gigabyte B550 Gaming X V2 + Ryzen 9 5950X",
+      "changed": true,
+      "old_quality": 98.08,
+      "new_quality": 100.16
+    },
+    "amd_#2": {
+      "from": "MSI B550-A Pro + Ryzen 9 5950X",
+      "to": "ASUS TUF B450M Pro S + Ryzen 9 3950X",
+      "changed": true,
+      "old_quality": 97.16,
+      "new_quality": 98.08
+    },
+    "amd_#3": {
+      "from": "MSI B550M Pro-VDH WiFi + Ryzen 9 5950X",
+      "to": "MSI B550-A Pro + Ryzen 9 5950X",
+      "changed": true,
+      "old_quality": 97.16,
+      "new_quality": 97.16
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "checked_at": "2026-06-28T17:24:51+03:00",
+  "scenario": "intel+amd ddr4 upgrade, quality-scored (manually re-ranked — auto-gen had bugs)",
+  "user_pc": {
+    "cpu": "Intel Core i7-9750H (Kaby Lake-H)",
+    "perf_baseline": 100,
+    "mobo": "MSI B250M Pro-VDH",
+    "ram_ddr4_gb": 48,
+    "ram_ddr4_sticks": 4,
+    "gpu": "NVIDIA GeForce RTX 5060 Ti",
+    "use_case": "local LLMs (need cores, AVX2/AMX, multi-threading)"
+  },
+  "weights": {
+    "mb_dimm_slots": 40,
+    "mb_vrm": 20,
+    "mb_pcie_gen": 15,
+    "mb_m2": 10,
+    "mb_lan": 5,
+    "mb_oc": 5,
+    "mb_brand_premium": 5,
+    "cpu_perf_formula": "(perf-100)*0.068, cap 30"
+  },
+  "intel_top3": [
+    {
+      "rank": 1,
+      "quality_score": 115.08,
+      "mb_quality_score": 94.0,
+      "cpu_quality_score": 21.08,
+      "kit_price_byn": 1205.0,
+      "compatibility": "verified",
+      "motherboard": {
+        "ad_id": 1074829435,
+        "title": "Материнская плата Z690 Gaming X DDR4 (rev. 1.0)",
+        "price_byn": 450.0,
+        "url": "https://www.kufar.by/item/1074829435",
+        "seller": "Владислав (Фрунзенский)",
+        "list_time": "2026-06-27",
+        "new_lot": true,
+        "chipset": "Z690",
+        "socket": "LGA1700",
+        "dimm_slots": 4,
+        "pcie_gen": "5.0 x16",
+        "m2_slots": 2,
+        "lan": "2.5G",
+        "oc": true,
+        "vrm": "12+1+1",
+        "brand": "Gigabyte"
+      },
+      "cpu": {
+        "ad_id": 1073208894,
+        "title": "Процессор Intel Core i9-12900K Гарантия",
+        "price_byn": 755.0,
+        "url": "https://www.kufar.by/item/1073208894",
+        "seller": "ООО ПТК БелИнструмент (Центральный)",
+        "list_time": "2026-06-23",
+        "socket": "LGA1700",
+        "cores_threads": "16c/24t",
+        "perf": 410,
+        "native_on_chipset": true,
+        "note": "12-е поколение на Z690 нативно, без BIOS-апдейта. PCIe 5.0 x16 — запас под будущий GPU."
+      }
+    },
+    {
+      "rank": 2,
+      "quality_score": 108.04,
+      "mb_quality_score": 89.0,
+      "cpu_quality_score": 19.04,
+      "kit_price_byn": 1220.0,
+      "compatibility": "verified",
+      "motherboard": {
+        "ad_id": 1074498967,
+        "title": "Gigabyte B760 Gaming X AX DDR4",
+        "price_byn": 450.0,
+        "url": "https://www.kufar.by/item/1074498967",
+        "seller": "Максим (Заводской)",
+        "list_time": "2026-06-24",
+        "chipset": "B760",
+        "socket": "LGA1700",
+        "dimm_slots": 4,
+        "pcie_gen": "4.0 x16",
+        "m2_slots": 2,
+        "lan": "2.5G",
+        "oc": true,
+        "vrm": "12+1+1",
+        "brand": "Gigabyte"
+      },
+      "cpu": {
+        "ad_id": 1071188333,
+        "title": "Продаю процессор i7-13700F",
+        "price_byn": 770.0,
+        "url": "https://www.kufar.by/item/1071188333",
+        "seller": "Вадим (Октябрьский)",
+        "socket": "LGA1700",
+        "cores_threads": "16c/24t",
+        "perf": 380,
+        "native_on_chipset": true,
+        "note": "13-е поколение на B760 нативно."
+      }
+    },
+    {
+      "rank": 3,
+      "quality_score": 99.10,
+      "mb_quality_score": 94.0,
+      "cpu_quality_score": 5.10,
+      "kit_price_byn": 950.0,
+      "compatibility": "verified",
+      "motherboard": {
+        "ad_id": 1074829435,
+        "title": "Материнская плата Z690 Gaming X DDR4 (rev. 1.0)",
+        "price_byn": 450.0,
+        "url": "https://www.kufar.by/item/1074829435",
+        "seller": "Владислав (Фрунзенский)",
+        "chipset": "Z690",
+        "socket": "LGA1700",
+        "dimm_slots": 4,
+        "pcie_gen": "5.0 x16",
+        "m2_slots": 2,
+        "lan": "2.5G",
+        "oc": true,
+        "vrm": "12+1+1",
+        "brand": "Gigabyte",
+        "shared_with_rank": 1
+      },
+      "cpu": {
+        "ad_id": 1073241092,
+        "title": "Intel Core i5-12400",
+        "price_byn": 500.0,
+        "url": "https://www.kufar.by/item/1073241092",
+        "seller": "Роман (Фрунзенский)",
+        "socket": "LGA1700",
+        "cores_threads": "6c/12t",
+        "perf": 175,
+        "native_on_chipset": true,
+        "note": "Самый дешёвый путь к PCIe 5.0."
+      }
+    }
+  ],
+  "amd_top3": [
+    {
+      "rank": 1,
+      "quality_score": 118.16,
+      "mb_quality_score": 93.0,
+      "cpu_quality_score": 25.16,
+      "kit_price_byn": 1550.0,
+      "compatibility": "verified",
+      "motherboard": {
+        "ad_id": 1069258658,
+        "title": "Материнская плата Gigabyte B550 AORUS Master",
+        "price_byn": 600.0,
+        "url": "https://www.kufar.by/item/1069258658",
+        "seller": "Алексей (Первомайский)",
+        "list_time": "2026-05-17",
+        "chipset": "B550",
+        "socket": "AM4",
+        "dimm_slots": 4,
+        "pcie_gen": "4.0 x16 (3× slots)",
+        "m2_slots": 3,
+        "lan": "1G + Wi-Fi 6 + BT 5.0",
+        "oc": true,
+        "vrm": "14+2",
+        "brand": "Gigabyte"
+      },
+      "cpu": {
+        "ad_id": 1073227393,
+        "title": "Процессор AMD Ryzen 9 5950X",
+        "price_byn": 950.0,
+        "url": "https://www.kufar.by/item/1073227393",
+        "seller": "Пользователь (Заводской)",
+        "list_time": "2026-06-24",
+        "socket": "AM4",
+        "cores_threads": "16c/32t",
+        "perf": 470,
+        "price_change_vs_0625": "none",
+        "note": "Топ для локальных LLM."
+      }
+    },
+    {
+      "rank": 2,
+      "quality_score": 111.16,
+      "mb_quality_score": 86.0,
+      "cpu_quality_score": 25.16,
+      "kit_price_byn": 1260.0,
+      "compatibility": "verified",
+      "motherboard": {
+        "ad_id": 1074867167,
+        "title": "Материнская плата Gigabyte Gaming X V2 rev 1.1",
+        "price_byn": 310.0,
+        "url": "https://www.kufar.by/item/1074867167",
+        "seller": "Max (Центральный)",
+        "list_time": "2026-06-27",
+        "new_lot": true,
+        "note": "Преемник ушедшего 1019993393 rev 1.0 (350 BYN).",
+        "chipset": "B550",
+        "socket": "AM4",
+        "dimm_slots": 4,
+        "pcie_gen": "4.0 x16",
+        "m2_slots": 2,
+        "lan": "1G",
+        "oc": true,
+        "vrm": "10+1+1",
+        "brand": "Gigabyte"
+      },
+      "cpu": {
+        "ad_id": 1073227393,
+        "title": "Процессор AMD Ryzen 9 5950X",
+        "price_byn": 950.0,
+        "url": "https://www.kufar.by/item/1073227393",
+        "socket": "AM4",
+        "cores_threads": "16c/32t",
+        "perf": 470,
+        "shared_with_rank": 1
+      }
+    },
+    {
+      "rank": 3,
+      "quality_score": 102.08,
+      "mb_quality_score": 81.0,
+      "cpu_quality_score": 21.08,
+      "kit_price_byn": 890.0,
+      "compatibility": "verified",
+      "motherboard": {
+        "ad_id": 1073717899,
+        "title": "Материнская плата ASRock B550 Steel Legend",
+        "price_byn": 400.0,
+        "url": "https://www.kufar.by/item/1073717899",
+        "seller": "Антон (Советский)",
+        "list_time": "2026-06-18",
+        "chipset": "B550",
+        "socket": "AM4",
+        "dimm_slots": 4,
+        "pcie_gen": "4.0 x16",
+        "m2_slots": 2,
+        "lan": "1G",
+        "oc": false,
+        "vrm": "10+2",
+        "brand": "ASRock"
+      },
+      "cpu": {
+        "ad_id": 1073399967,
+        "title": "AMD Ryzen 9 3950X",
+        "price_byn": 490.0,
+        "url": "https://www.kufar.by/item/1073399967",
+        "seller": "Дмитрий (Центральный)",
+        "socket": "AM4",
+        "cores_threads": "16c/32t",
+        "perf": 410,
+        "price_change_vs_0625": "none"
+      }
+    }
+  ],
+  "uncertain_intel_combos": [
+    {"combo": "Z690 + i9-14900KF", "kit_price_byn": 1450, "raw_quality": 124.0, "reason": "Z690 + 13/14-е поколение требует BIOS-апдейта; понижен. Если продавец 1074829435 подтвердит свежий BIOS — становится Intel #1."},
+    {"combo": "Z690 + i7-13700K", "kit_price_byn": 1250, "raw_quality": 113.04, "reason": "Требует BIOS-апдейта."}
+  ],
+  "removed_since_0625": [
+    {"ad_id": 1074338703, "what": "Asrock B660M PG Riptide (former Intel #1 MB)", "last_price_byn": 500, "removed_at": "2026-06-28"},
+    {"ad_id": 1073950867, "what": "Intel Core i5-12400 Антон (former Intel #1 CPU)", "last_price_byn": 500, "removed_at": "2026-06-28"}
+  ],
+  "price_changed_active": [
+    {"ad_id": 1019993393, "what": "Gigabyte B550 Gaming X V2 rev 1.0", "prev_byn": 350, "now_byn": 337.24, "delta": -12.76},
+    {"ad_id": 1049279891, "what": "Gigabyte B760 Gaming X Gen5 (PCIe 5.0)", "prev_byn": 378, "now_byn": 384.31, "delta": 6.31},
+    {"ad_id": 1063525487, "what": "MSI B550-A Pro", "prev_byn": 345, "now_byn": 352.01, "delta": 7.01},
+    {"ad_id": 1029024019, "what": "Gigabyte B760M Gaming X AX rev", "prev_byn": 493, "now_byn": 504.37, "delta": 11.37}
+  ],
+  "active_unchanged": [
+    {"ad_id": 1069364985, "what": "ASUS TUF B450M Pro S", "price_byn": 230},
+    {"ad_id": 1073227393, "what": "AMD Ryzen 9 5950X", "price_byn": 950},
+    {"ad_id": 1073399967, "what": "AMD Ryzen 9 3950X", "price_byn": 490}
+  ],
+  "excluded": [
+    {"ad_id": 1071173866, "reason": "defect: не работает"},
+    {"ad_id": 1067964836, "reason": "defect: глючит"},
+    {"ad_id": 1074467672, "reason": "PCIe 3.0 x16 (MSI B550M-P Gen3) — violates PCIe >=4.0"},
+    {"ad_id": 1073248395, "reason": "defect + no model"},
+    {"ad_id": 1073038427, "reason": "uncertain: no model"},
+    {"ad_id": 1070675357, "reason": "uncertain: body mentions am5, no model"},
+    {"ad_id": 1067156481, "reason": "wrong_memory: DDR5 kit"},
+    {"ad_id": 1070922366, "reason": "noname_mb: Soyo not in whitelist"},
+    {"ad_ids": "16 CPU lots", "reason": "no_price (договорная/торг)"}
+  ],
+  "fetch_summary": {
+    "new_ad_ids_since_0625": 69,
+    "active_after_filter": {"mb_intel_lga1700": 5, "mb_amd_am4": 8, "cpu_intel": 27, "cpu_amd": 58},
+    "excluded_counts": {"defect_mb": 2, "defect_cpu": 3, "no_price_cpu": 16, "noname": 1},
+    "seen_ids_total": 2290,
+    "direct_verified": 7
+  }
+}

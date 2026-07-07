@@ -1,0 +1,85 @@
+# Secrets and environment
+.env
+.askpass_tmp.sh
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Temporary / diagnostic scripts
+__extract_mhtml.py
+__temp_extract.txt
+scripts/_diag*.txt
+scripts/_diag*.py
+scripts/_probe_*.py
+scripts/_fix_*.py
+scripts/_analyze*.py
+scripts/_direct_verify*.py
+scripts/_verify_*.py
+scripts/_inject_*.py
+scripts/_rebuild_*.py
+scripts/_fix_top3_*.py
+scripts/_kit_analyzer_*.py
+scripts/_build_quality_top3.py
+scripts/_build_intel_report.py
+scripts/_build_report_mb.py
+scripts/_fetch_*.py
+scripts/_filter_candidates.py
+scripts/.claude/
+
+# Logs
+*.log
+.playwright-mcp/
+
+# Cache and regenerable data
+scripts/.cache/
+scripts/.playwright/
+scripts/_out.json
+scripts/_out_delta.json
+scripts/_items.json
+scripts/_items_grouped.json
+scripts/_candidates.json
+
+# HTML reports and previews are regenerated; keep markdown/json/csv
+reports/*.html
+reports/index.html
+reports/previews/
+
+# Junk / dropped screenshots
+at-*.png
+
+# Analyzer scratch/output intermediates
+scripts/_active_prices.txt
+scripts/_candidates_check.txt
+scripts/_inspect*.txt
+scripts/_item_fields.txt
+scripts/_kit_analyzer_log.txt
+scripts/_kit_analyzer_out.json
+scripts/_kit_analyzer_out_check.json
+scripts/_kit_check.txt
+scripts/_kit_shortlist.json
+scripts/_manifest_*.txt
+scripts/_mb_slots.txt
+scripts/_old_ids_lookup.txt
+scripts/_old_seen_check.txt
+scripts/_ready_kits_details.txt
+scripts/_seen_check.txt
+scripts/_stale_results.txt
+scripts/_items.json.bak*
+
+# Claude plans
+.claude/plan.md

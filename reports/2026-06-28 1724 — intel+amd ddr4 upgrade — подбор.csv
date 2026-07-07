@@ -1,0 +1,10 @@
+platform,rank,mb_ad_id,mb_title,mb_price_byn,chipset,dimm,pcie,m2,lan,vrm_phases,cpu_ad_id,cpu_title,cpu_price_byn,cpu_perf,kit_price_byn,quality_score
+intel,,1074498967,Gigabyte B760 Gaming X AX DDR4,450.0,B760,4,4,0,1,0,1071188333,Продаю процессор i7-13700F,770.0,380,1220.0,83.04
+intel,,1074760923,Мат. плата Gigabyte H610M H V2 DDR4 (На гарантии),188.88,H610,2,4,0,1,5,1073241092,Intel Core i5-12400,500.0,175,688.88,24.1
+intel,,1073712669,Материнская Плата ASRock H610M-HDV,150.0,H610,2,4,0,1,5,1073241092,Intel Core i5-12400,500.0,175,650.0,24.1
+amd,,1074467672,Msi pro b550m-p gen3,250.0,B550,4,4,0,1,8,1073399967,AMD Ryzen 9 3950x,490.0,410,740.0,88.08
+amd,,1074086159,Материнская плата ASRock B550M-HDV,260.0,B550,4,4,0,1,8,1073399967,AMD Ryzen 9 3950x,490.0,410,750.0,86.08
+ready_kit,AM4,1046837951,Процессор AMD Ryzen 5 4500 в комплекте с кулером,280.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,165,n/a,n/a
+ready_kit,LGA1700,1074720440,Комплект 13400f/b760m,750.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,200,n/a,n/a
+ready_kit,LGA1700,1074878726,комплект Intel Core i5-13400 + B660M+4x8 32GB DDR4,1600.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,200,n/a,n/a
+ready_kit,LGA1700,1074023280,комплект 14900k + b660 + 64gb,1900.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a

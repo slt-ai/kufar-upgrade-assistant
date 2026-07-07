@@ -1,0 +1,19 @@
+platform,rank,mb_ad_id,mb_title,mb_price_byn,chipset,dimm,pcie,m2,lan,vrm_phases,cpu_ad_id,cpu_title,cpu_price_byn,cpu_perf,kit_price_byn,quality_score
+intel,,1074338703,Asrock B660M PG Riptide,500.0,B660,4,4,2,2.5,15,1073950867,Intel Core i5-12400 (LGA 1700),500.0,175,1000.0,98.1
+intel,,1049279891,Материнская плата Gigabyte B760 Gaming X Gen5,378.31,B760,4,4,1,1,1,1071188333,Продаю процессор i7-13700F,770.0,380,1148.31,88.04
+intel,,1029024019,Материнская плата Gigabyte B760M Gaming X AX (rev. 1.x),493.21,B760,4,4,1,1,0,1071188333,Продаю процессор i7-13700F,770.0,380,1263.21,88.04
+amd,,1019993393,Материнская плата Gigabyte B550 Gaming X V2 (rev. 1.0),349.52,B550,4,4,1,1,8,1073227393,Процессор AMD Ryzen 9 5950X,950.0,470,1299.52,100.16
+amd,,1069364985,Asus TUF Gaming B450M Pro S материнская плата AM4,230.0,B550,4,4,1,1,8,1073399967,AMD Ryzen 9 3950x,490.0,410,720.0,98.08
+amd,,1063525487,Материнская плата MSI B550-A Pro,345.04,B550,4,4,1,1,8,1073227393,Процессор AMD Ryzen 9 5950X,950.0,470,1295.04,97.16
+ready_kit,AM4,1074495798,Комплект АМ4,170.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,125,n/a,n/a
+ready_kit,AM4,1073870268,Комплект Asrock Pro AB350+Ryzen 5 2400g,245.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+ready_kit,AM4,1046837951,Процессор AMD Ryzen 5 4500 в комплекте с кулером,280.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,165,n/a,n/a
+ready_kit,AM4,1064953017,КоМПЛЕКТ RYZEN 7 1700+ MB A320M-K+8Gb+ОХЛАД,350.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,145,n/a,n/a
+ready_kit,LGA1700,1062347171,Комплект Xeon 2680+плата X79+кулер+32(64)gb DDR,390.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+ready_kit,AM4,1074495373,Комплект системного блока Ryzen 7,540.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,170,n/a,n/a
+ready_kit,AM4,1074061887,Комплект Ryzen материнская плата ОЗУ проц кулер,720.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,200,n/a,n/a
+ready_kit,LGA1700,1074109353,Полный игровой комплект или пк,750.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+ready_kit,AM4,1074047062,Комплект AM4 asus tuf b450 ryzen 3600 32gb,1000.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,150,n/a,n/a
+ready_kit,LGA1700,1073979712,комплект Intel Core i5-13400 + B660M + 32GB DDR4,1600.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,200,n/a,n/a
+ready_kit,AM4,1073125074,КОМПЛЕКТ: мать + проц + кулер + память + карта,5299.99,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,290,n/a,n/a
+intel_budget,budget,1073075382,Материнская плата GIGABYTE H610M H V3 DDR4,150.0,H610,2,4,0,1,5,1073950867,Intel Core i5-12400 (LGA 1700),500.0,175,650.0,24.1

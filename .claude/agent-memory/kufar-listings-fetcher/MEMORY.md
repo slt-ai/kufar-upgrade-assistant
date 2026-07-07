@@ -1,0 +1,1 @@
+- [kufar.by fetch: задержки и retries](kufar-fetch-rate-limits.md) — 429 при 0.5с, успешно при 2.5с + retries

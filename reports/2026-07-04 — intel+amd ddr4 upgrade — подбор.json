@@ -1,0 +1,671 @@
+{
+  "report_date": "2026-07-04T22:00:00+00:00",
+  "scenario": "intel+amd ddr4 upgrade",
+  "pc_config": {
+    "cpu": "Intel Core i7-9750H",
+    "motherboard": "MSI B250M Pro-VDH",
+    "ram": "48 GB DDR4 (4 sticks)",
+    "gpu": "NVIDIA GeForce RTX 5060 Ti"
+  },
+  "filters": {
+    "ram_type": "DDR4 only",
+    "pcie_gpu_min": "4.0 x16",
+    "pcie_gpu_target": "5.0 x16",
+    "intel": "LGA1700, chipsets Z690/Z790/B660/B760/H610/H670",
+    "amd": "AM4, chipsets B550/X570",
+    "region": "Минск",
+    "mb_brand_whitelist": [
+      "ASUS",
+      "MSI",
+      "Gigabyte",
+      "ASRock",
+      "Biostar",
+      "ECS"
+    ],
+    "dimm_required_for_top3": 4
+  },
+  "summary_bullets": [
+    "Intel: единственная доступная 4-DIMM DDR4 плата LGA1700 — Gigabyte B760 Gaming X AX DDR4; лучший бюджет — i5-12400F + B760 = 770 BYN, лучшее соотношение потоки/цена — i7-13700F + B760 = 1190 BYN.",
+    "AMD: лучшая производительность/цена — Материнская плата b550m + Ryzen 9 3950X = 760 BYN (16c/32t); бюджетный вариант — X570 + Ryzen 7 3700X = 585 BYN.",
+    "Изменения: ASRock Z790M PG Lightning D4 (1075318739) исключён по дефекту после ручной проверки; Intel топ-3 пересобран вокруг Gigabyte B760 Gaming X AX DDR4."
+  ],
+  "intel_top3": [
+    {
+      "mb_id": "1074498967",
+      "cpu_id": "1075251861",
+      "motherboard": {
+        "ad_id": "1074498967",
+        "title": "Gigabyte B760 Gaming X AX DDR4",
+        "price_byn": 420,
+        "url": "https://www.kufar.by/item/1074498967",
+        "seller": "Максим",
+        "location": "Минск, Заводской",
+        "condition": "Б/у",
+        "chipset": "Intel B760",
+        "socket": "LGA1700",
+        "dimm_slots": 4,
+        "pcie_x16": "4.0",
+        "m2_slots": "2",
+        "lan": "2.5GbE",
+        "wifi": true,
+        "form_factor": "ATX",
+        "vrm": "8+1+2",
+        "oc_series": true
+      },
+      "cpu": {
+        "ad_id": "1075251861",
+        "title": "Процесор i5 12400f",
+        "price_byn": 350,
+        "url": "https://www.kufar.by/item/1075251861",
+        "seller": "Вадим ",
+        "location": "Минск, Октябрьский",
+        "condition": "Б/у",
+        "model": "i5-12400F",
+        "perf_score": 156,
+        "perf_baseline": "Intel Core i7-9750H = 100",
+        "cores_threads": "6c/12t"
+      },
+      "kit_price_byn": 770,
+      "cpu_perf": 156,
+      "cpu_cores_threads": "6c/12t",
+      "chipset": "Intel B760",
+      "socket": "LGA1700",
+      "dimm_slots": 4,
+      "pcie": 4.0,
+      "pcie_x16": "4.0",
+      "m2_slots": "2",
+      "lan": "2.5GbE",
+      "wifi": true,
+      "form_factor": "ATX",
+      "oc_series": true,
+      "notes": [],
+      "rank": 1
+    },
+    {
+      "mb_id": "1074498967",
+      "cpu_id": "1074166310",
+      "motherboard": {
+        "ad_id": "1074498967",
+        "title": "Gigabyte B760 Gaming X AX DDR4",
+        "price_byn": 420,
+        "url": "https://www.kufar.by/item/1074498967",
+        "seller": "Максим",
+        "location": "Минск, Заводской",
+        "condition": "Б/у",
+        "chipset": "Intel B760",
+        "socket": "LGA1700",
+        "dimm_slots": 4,
+        "pcie_x16": "4.0",
+        "m2_slots": "2",
+        "lan": "2.5GbE",
+        "wifi": true,
+        "form_factor": "ATX",
+        "vrm": "8+1+2",
+        "oc_series": true
+      },
+      "cpu": {
+        "ad_id": "1074166310",
+        "title": "Процессор Intel core i7",
+        "price_byn": 550,
+        "url": "https://www.kufar.by/item/1074166310",
+        "seller": "Олег",
+        "location": "Минск, Советский",
+        "condition": "Б/у",
+        "model": "i7-12700F",
+        "perf_score": 235,
+        "perf_baseline": "Intel Core i7-9750H = 100",
+        "cores_threads": "12c/20t"
+      },
+      "kit_price_byn": 970,
+      "cpu_perf": 235,
+      "cpu_cores_threads": "12c/20t",
+      "chipset": "Intel B760",
+      "socket": "LGA1700",
+      "dimm_slots": 4,
+      "pcie": 4.0,
+      "pcie_x16": "4.0",
+      "m2_slots": "2",
+      "lan": "2.5GbE",
+      "wifi": true,
+      "form_factor": "ATX",
+      "oc_series": true,
+      "notes": [],
+      "rank": 2
+    },
+    {
+      "mb_id": "1074498967",
+      "cpu_id": "1071188333",
+      "motherboard": {
+        "ad_id": "1074498967",
+        "title": "Gigabyte B760 Gaming X AX DDR4",
+        "price_byn": 420,
+        "url": "https://www.kufar.by/item/1074498967",
+        "seller": "Максим",
+        "location": "Минск, Заводской",
+        "condition": "Б/у",
+        "chipset": "Intel B760",
+        "socket": "LGA1700",
+        "dimm_slots": 4,
+        "pcie_x16": "4.0",
+        "m2_slots": "2",
+        "lan": "2.5GbE",
+        "wifi": true,
+        "form_factor": "ATX",
+        "vrm": "8+1+2",
+        "oc_series": true
+      },
+      "cpu": {
+        "ad_id": "1071188333",
+        "title": "Продаю процессор i7-13700F",
+        "price_byn": 770.0,
+        "url": "https://www.kufar.by/item/1071188333",
+        "seller": "Вадим",
+        "location": "Минск, Октябрьский",
+        "condition": "Новое",
+        "model": "i7-13700F",
+        "perf_score": 450,
+        "perf_baseline": "Intel Core i7-9750H = 100",
+        "cores_threads": "16c/24t"
+      },
+      "kit_price_byn": 1190.0,
+      "cpu_perf": 450,
+      "cpu_cores_threads": "16c/24t",
+      "chipset": "Intel B760",
+      "socket": "LGA1700",
+      "dimm_slots": 4,
+      "pcie": 4.0,
+      "pcie_x16": "4.0",
+      "m2_slots": "2",
+      "lan": "2.5GbE",
+      "wifi": true,
+      "form_factor": "ATX",
+      "oc_series": true,
+      "notes": [],
+      "rank": 3
+    }
+  ],
+  "amd_top3": [
+    {
+      "mb_id": "1073038427",
+      "cpu_id": "1072583055",
+      "motherboard": {
+        "ad_id": "1073038427",
+        "title": "X570",
+        "price_byn": 285,
+        "url": "https://www.kufar.by/item/1073038427",
+        "seller": "kazus",
+        "location": "Минск, Центральный",
+        "condition": "Б/у",
+        "chipset": "AMD X570",
+        "socket": "AM4",
+        "dimm_slots": 4,
+        "pcie_x16": "4.0",
+        "m2_slots": "2",
+        "lan": "1GbE",
+        "wifi": false,
+        "form_factor": "ATX",
+        "vrm": "10+2",
+        "oc_series": false
+      },
+      "cpu": {
+        "ad_id": "1072583055",
+        "title": "Ryzen 7 3700x PRO",
+        "price_byn": 300,
+        "url": "https://www.kufar.by/item/1072583055",
+        "seller": "Adel Nako",
+        "location": "Минск, Фрунзенский",
+        "condition": "Б/у",
+        "model": "Ryzen 7 3700X",
+        "perf_score": 185,
+        "perf_baseline": "Intel Core i7-9750H = 100",
+        "cores_threads": "8c/16t"
+      },
+      "kit_price_byn": 585,
+      "cpu_perf": 185,
+      "cpu_cores_threads": "8c/16t",
+      "chipset": "AMD X570",
+      "socket": "AM4",
+      "dimm_slots": 4,
+      "pcie": 4.0,
+      "pcie_x16": "4.0",
+      "m2_slots": "2",
+      "lan": "1GbE",
+      "wifi": false,
+      "form_factor": "ATX",
+      "oc_series": false,
+      "notes": [],
+      "rank": 1
+    },
+    {
+      "mb_id": "1070675357",
+      "cpu_id": "1073399967",
+      "motherboard": {
+        "ad_id": "1070675357",
+        "title": "Материнская плата b550m",
+        "price_byn": 270,
+        "url": "https://www.kufar.by/item/1070675357",
+        "seller": "Гелиополис",
+        "location": "Минск, Первомайский",
+        "condition": "Б/у",
+        "chipset": "AMD B550",
+        "socket": "AM4",
+        "dimm_slots": 4,
+        "pcie_x16": "4.0",
+        "m2_slots": "1",
+        "lan": "1GbE",
+        "wifi": false,
+        "form_factor": "mATX",
+        "vrm": "5+3",
+        "oc_series": false
+      },
+      "cpu": {
+        "ad_id": "1073399967",
+        "title": "AMD Ryzen 9 3950x",
+        "price_byn": 490,
+        "url": "https://www.kufar.by/item/1073399967",
+        "seller": "Дмитрий",
+        "location": "Минск, Центральный",
+        "condition": "Б/у",
+        "model": "Ryzen 9 3950X",
+        "perf_score": 371,
+        "perf_baseline": "Intel Core i7-9750H = 100",
+        "cores_threads": "16c/32t"
+      },
+      "kit_price_byn": 760,
+      "cpu_perf": 371,
+      "cpu_cores_threads": "16c/32t",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "dimm_slots": 4,
+      "pcie": 4.0,
+      "pcie_x16": "4.0",
+      "m2_slots": "1",
+      "lan": "1GbE",
+      "wifi": false,
+      "form_factor": "mATX",
+      "oc_series": false,
+      "notes": [],
+      "rank": 2
+    },
+    {
+      "mb_id": "1074867167",
+      "cpu_id": "1073227393",
+      "motherboard": {
+        "ad_id": "1074867167",
+        "title": "Материнская плата Gigabyte Gaming x V2 rev 1.1",
+        "price_byn": 310,
+        "url": "https://www.kufar.by/item/1074867167",
+        "seller": "Max",
+        "location": "Минск, Центральный",
+        "condition": "Б/у",
+        "chipset": "AMD B550",
+        "socket": "AM4",
+        "dimm_slots": 4,
+        "pcie_x16": "4.0",
+        "m2_slots": "2",
+        "lan": "1GbE",
+        "wifi": false,
+        "form_factor": "ATX",
+        "vrm": "10+2",
+        "oc_series": true
+      },
+      "cpu": {
+        "ad_id": "1073227393",
+        "title": "Процессор AMD Ryzen 9 5950X",
+        "price_byn": 880,
+        "url": "https://www.kufar.by/item/1073227393",
+        "seller": "Пользователь",
+        "location": "Минск, Заводской",
+        "condition": "Б/у",
+        "model": "Ryzen 9 5950X",
+        "perf_score": 371,
+        "perf_baseline": "Intel Core i7-9750H = 100",
+        "cores_threads": "16c/32t"
+      },
+      "kit_price_byn": 1190,
+      "cpu_perf": 371,
+      "cpu_cores_threads": "16c/32t",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "dimm_slots": 4,
+      "pcie": 4.0,
+      "pcie_x16": "4.0",
+      "m2_slots": "2",
+      "lan": "1GbE",
+      "wifi": false,
+      "form_factor": "ATX",
+      "oc_series": true,
+      "notes": [],
+      "rank": 3
+    }
+  ],
+  "comparison": [
+    {
+      "rank": "Intel #1",
+      "cpu": "i5-12400F",
+      "kit_price_byn": 770,
+      "cpu_perf": 156,
+      "pcie": "4.0",
+      "dimm": 4,
+      "m2": "2",
+      "lan": "2.5GbE",
+      "wifi": "да",
+      "condition": "MB Б/у / CPU Б/у",
+      "notes": "−"
+    },
+    {
+      "rank": "Intel #2",
+      "cpu": "i7-12700F",
+      "kit_price_byn": 970,
+      "cpu_perf": 235,
+      "pcie": "4.0",
+      "dimm": 4,
+      "m2": "2",
+      "lan": "2.5GbE",
+      "wifi": "да",
+      "condition": "MB Б/у / CPU Б/у",
+      "notes": "−"
+    },
+    {
+      "rank": "Intel #3",
+      "cpu": "i7-13700F",
+      "kit_price_byn": 1190.0,
+      "cpu_perf": 450,
+      "pcie": "4.0",
+      "dimm": 4,
+      "m2": "2",
+      "lan": "2.5GbE",
+      "wifi": "да",
+      "condition": "MB Б/у / CPU Новое",
+      "notes": "−"
+    },
+    {
+      "rank": "AMD #1",
+      "cpu": "Ryzen 7 3700X",
+      "kit_price_byn": 585,
+      "cpu_perf": 185,
+      "pcie": "4.0",
+      "dimm": 4,
+      "m2": "2",
+      "lan": "1GbE",
+      "wifi": "нет",
+      "condition": "MB Б/у / CPU Б/у",
+      "notes": "−"
+    },
+    {
+      "rank": "AMD #2",
+      "cpu": "Ryzen 9 3950X",
+      "kit_price_byn": 760,
+      "cpu_perf": 371,
+      "pcie": "4.0",
+      "dimm": 4,
+      "m2": "1",
+      "lan": "1GbE",
+      "wifi": "нет",
+      "condition": "MB Б/у / CPU Б/у",
+      "notes": "−"
+    },
+    {
+      "rank": "AMD #3",
+      "cpu": "Ryzen 9 5950X",
+      "kit_price_byn": 1190,
+      "cpu_perf": 371,
+      "pcie": "4.0",
+      "dimm": 4,
+      "m2": "2",
+      "lan": "1GbE",
+      "wifi": "нет",
+      "condition": "MB Б/у / CPU Б/у",
+      "notes": "−"
+    }
+  ],
+  "ready_kits": [
+    {
+      "ad_id": "1075518870",
+      "title": "Комплект процессор i3 12100f, b660m asus ddr4 2x8",
+      "platform": "Intel LGA1700",
+      "chipset": "Intel B660",
+      "socket": "LGA1700",
+      "price_byn": 700,
+      "cpu": "i3-12100F",
+      "ram_gb": null,
+      "dimm_slots": 4,
+      "pcie_x16": "4.0",
+      "seller": "vlodeslaff f",
+      "location": "Минск, Московский",
+      "condition": "Б/у",
+      "url": "https://www.kufar.by/item/1075518870",
+      "verified_cpu": true,
+      "notes": [
+        "готовый комплект mb+cpu+ram"
+      ]
+    },
+    {
+      "ad_id": "1075674366",
+      "title": "i5-13400 + B660M + 4x8ddr4",
+      "platform": "Intel LGA1700",
+      "chipset": "Intel B660",
+      "socket": "LGA1700",
+      "price_byn": 1600,
+      "cpu": "i5-13400",
+      "ram_gb": 32,
+      "dimm_slots": 4,
+      "pcie_x16": "4.0",
+      "seller": "Даник ",
+      "location": "Минск, Центральный",
+      "condition": "Б/у",
+      "url": "https://www.kufar.by/item/1075674366",
+      "verified_cpu": true,
+      "notes": [
+        "готовый комплект mb+cpu+ram"
+      ]
+    },
+    {
+      "ad_id": "1073125074",
+      "title": "КОМПЛЕКТ: мать + проц + кулер + память + карта",
+      "platform": "AMD AM4",
+      "chipset": "AMD B550",
+      "socket": "AM4",
+      "price_byn": 5299,
+      "cpu": "Ryzen 7 5800X",
+      "ram_gb": 32,
+      "dimm_slots": null,
+      "pcie_x16": "4.0",
+      "seller": "Мікіта",
+      "location": "Минск, Московский",
+      "condition": "Б/у",
+      "url": "https://www.kufar.by/item/1073125074",
+      "verified_cpu": true,
+      "notes": [
+        "готовый комплект mb+cpu+ram"
+      ]
+    }
+  ],
+  "changes_since_2026_07_01": {
+    "removed": [
+      {
+        "ad_id": "1073717899",
+        "title": "ASRock B550 Steel Legend",
+        "last_price_byn": 400,
+        "status": "removed",
+        "checked_at": "2026-07-03T21:54:52Z"
+      },
+      {
+        "ad_id": "1074023280",
+        "title": "i9-14900k + b660 + 64gb",
+        "last_price_byn": 1900,
+        "status": "removed",
+        "checked_at": "2026-07-03T21:54:52Z"
+      },
+      {
+        "ad_id": "1074720440",
+        "title": "Комплект 13400f/b760m",
+        "last_price_byn": 750,
+        "status": "removed",
+        "checked_at": "2026-07-03T21:54:52Z"
+      },
+      {
+        "ad_id": "1074878726",
+        "title": "i5-13400 + B660M + 4x8 32GB DDR4",
+        "last_price_byn": 1700,
+        "status": "removed",
+        "checked_at": "2026-07-03T21:54:52Z"
+      }
+    ],
+    "price_changed": [
+      {
+        "ad_id": "1074498967",
+        "title": "Gigabyte B760 Gaming X AX DDR4",
+        "old_price_byn": 440,
+        "new_price_byn": 420,
+        "delta_byn": -20.0
+      }
+    ],
+    "new_in_top3": [
+      {
+        "ad_id": "1072583055",
+        "title": "Ryzen 7 3700x PRO",
+        "note": "вошёл в актуальный топ-3"
+      },
+      {
+        "ad_id": "1070675357",
+        "title": "Материнская плата b550m",
+        "note": "вошёл в актуальный топ-3"
+      },
+      {
+        "ad_id": "1073038427",
+        "title": "X570",
+        "note": "вошёл в актуальный топ-3"
+      },
+      {
+        "ad_id": "1074867167",
+        "title": "Материнская плата Gigabyte Gaming x V2 rev 1.1",
+        "note": "вошёл в актуальный топ-3"
+      },
+      {
+        "ad_id": "1074166310",
+        "title": "Процессор Intel core i7",
+        "note": "вошёл в актуальный топ-3"
+      },
+      {
+        "ad_id": "1075251861",
+        "title": "Процесор i5 12400f",
+        "note": "вошёл в актуальный топ-3"
+      },
+      {
+        "ad_id": "1071188333",
+        "title": "Продаю процессор i7-13700F",
+        "note": "вошёл в актуальный Intel топ-3 (#3)"
+      }
+    ],
+    "unchanged": [
+      {
+        "ad_id": "1071188333",
+        "title": "Продаю процессор i7-13700F",
+        "price_byn": 770,
+        "note": "цена не изменилась или отсутствует в прошлом отчёте"
+      },
+      {
+        "ad_id": "1073208894",
+        "title": "Процессор Intel Core i9-12900K Гарантия",
+        "price_byn": 755,
+        "note": "цена не изменилась или отсутствует в прошлом отчёте"
+      },
+      {
+        "ad_id": "1075021903",
+        "title": "intel core i5 13400",
+        "price_byn": 700,
+        "note": "цена не изменилась или отсутствует в прошлом отчёте"
+      },
+      {
+        "ad_id": "1069258658",
+        "title": "Материнская плата Gigabyte B550 AORUS Master",
+        "price_byn": 600,
+        "note": "цена не изменилась или отсутствует в прошлом отчёте"
+      },
+      {
+        "ad_id": "1073227393",
+        "title": "Процессор AMD Ryzen 9 5950X",
+        "price_byn": 880,
+        "note": "цена не изменилась или отсутствует в прошлом отчёте"
+      },
+      {
+        "ad_id": "1074968077",
+        "title": "Новая (ГАРАНТ) материнская плата ASRock B550M Pro4",
+        "price_byn": 310,
+        "note": "цена не изменилась или отсутствует в прошлом отчёте"
+      },
+      {
+        "ad_id": "1073399967",
+        "title": "AMD Ryzen 9 3950x",
+        "price_byn": 490,
+        "note": "цена не изменилась или отсутствует в прошлом отчёте"
+      },
+      {
+        "ad_id": "1074867167",
+        "title": "Материнская плата Gigabyte Gaming x V2 rev 1.1",
+        "price_byn": 310,
+        "note": "цена не изменилась или отсутствует в прошлом отчёте"
+      },
+      {
+        "ad_id": "1019993393",
+        "title": "Материнская плата Gigabyte B550 Gaming X V2 (rev. 1.0)",
+        "price_byn": 341,
+        "note": "цена не изменилась или отсутствует в прошлом отчёте"
+      },
+      {
+        "ad_id": "1063525487",
+        "title": "Материнская плата MSI B550-A Pro",
+        "price_byn": 355,
+        "note": "цена не изменилась или отсутствует в прошлом отчёте"
+      },
+      {
+        "ad_id": "1069364985",
+        "title": "Asus TUF Gaming B450M Pro II материнская плата AM4",
+        "price_byn": 235,
+        "note": "цена не изменилась или отсутствует в прошлом отчёте"
+      },
+      {
+        "ad_id": "1049279891",
+        "title": "Материнская плата Gigabyte B760 Gaming X Gen5",
+        "price_byn": 393,
+        "note": "цена не изменилась или отсутствует в прошлом отчёте"
+      },
+      {
+        "ad_id": "1029024019",
+        "title": "Материнская плата Gigabyte B760M Gaming X AX (rev. 1.x)",
+        "price_byn": 508,
+        "note": "цена не изменилась или отсутствует в прошлом отчёте"
+      },
+      {
+        "ad_id": "1046837951",
+        "title": "Процессор AMD Ryzen 5 4500 в комплекте с кулером",
+        "price_byn": 280,
+        "note": "цена не изменилась или отсутствует в прошлом отчёте"
+      }
+    ],
+    "defect_excluded": [
+      {
+        "ad_id": "1075318739",
+        "title": "Asrock z790m pg lightning d4",
+        "reason": "defect: в описании заявлен цикличный перезапуск/отсутствие старта",
+        "last_price_byn": 180,
+        "checked_at": "2026-07-04T00:00:00Z"
+      }
+    ]
+  },
+  "excluded_counts": {
+    "defect": 50,
+    "wrong_memory": 664,
+    "noname": 44,
+    "no_price": 1,
+    "not_minsk": 0,
+    "pcie_too_old": 0,
+    "other": 242
+  },
+  "files": [
+    "reports/2026-07-04 — intel+amd ddr4 upgrade — подбор.md",
+    "reports/2026-07-04 — intel+amd ddr4 upgrade — подбор.json",
+    "scripts/_kit_analyzer_out.json"
+  ]
+}
